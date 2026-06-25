@@ -26,9 +26,9 @@
     }
 
     .page {
-      max-width: 920px;
+      max-width: 1120px;
       margin: 0 auto;
-      padding: 48px 20px 64px;
+      padding: 48px 24px 64px;
     }
 
     .header {
@@ -49,13 +49,13 @@
 
     h1 {
       margin: 0;
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 700;
       letter-spacing: -0.02em;
     }
 
     .subtitle {
-      max-width: 720px;
+      max-width: 760px;
       margin: 14px auto 0;
       color: var(--muted);
       font-size: 16px;
@@ -66,18 +66,22 @@
       border: 1px solid var(--line);
       border-radius: 18px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-      padding: 24px;
+      padding: 28px;
       margin-bottom: 24px;
+    }
+
+    .video-card {
+      padding: 30px;
     }
 
     .section-title {
       margin: 0 0 12px;
-      font-size: 22px;
+      font-size: 23px;
       font-weight: 650;
     }
 
     .description {
-      margin: 0 0 18px;
+      margin: 0 0 20px;
       color: var(--muted);
       font-size: 15px;
     }
@@ -146,6 +150,10 @@
         padding: 18px;
         border-radius: 14px;
       }
+
+      .video-card {
+        padding: 18px;
+      }
     }
   </style>
 </head>
@@ -157,14 +165,18 @@
       <h1>Supplementary Video</h1>
       <p class="subtitle">
         This page provides an anonymized backup copy of the supplementary video
-        for review purposes.
+        for review purposes. The video illustrates the generated regrasp sequence
+        and its real-world execution.
       </p>
     </header>
 
-    <section class="card">
-      <h2 class="section-title">Video 1</h2>
+    <section class="card video-card">
+      <h2 class="section-title">Video 1: Regrasp Sequence Optimization and Execution</h2>
       <p class="description">
-        Representative generated regrasp sequence and real-world execution result.
+        This video shows a representative multi-step regrasp planning result from
+        random initial and goal object poses. It visualizes the generated intermediate
+        object poses, the resulting pick-and-place sequence, and the corresponding
+        real-world robot execution.
       </p>
 
       <div class="video-wrap">
@@ -198,4 +210,3 @@
 </body>
 </html>
 ```
-
