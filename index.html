@@ -1,198 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Supplementary Video</title>
-
-  <style>
-    :root {
-      --bg: #f6f7f9;
-      --card: #ffffff;
-      --text: #222222;
-      --muted: #666666;
-      --line: #e5e7eb;
-      --accent: #2f5f9f;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-
-    .page {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 48px 24px 64px;
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 4px 12px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: #ffffff;
-      color: var(--muted);
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 34px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-    }
-
-    .subtitle {
-      max-width: 760px;
-      margin: 14px auto 0;
-      color: var(--muted);
-      font-size: 16px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-      padding: 28px;
-      margin-bottom: 24px;
-    }
-
-    .video-card {
-      padding: 30px;
-    }
-
-    .section-title {
-      margin: 0 0 12px;
-      font-size: 23px;
-      font-weight: 650;
-    }
-
-    .description {
-      margin: 0 0 20px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-
-    .video-wrap {
-      width: 100%;
-      background: #000000;
-      border-radius: 14px;
-      overflow: hidden;
-      border: 1px solid #111111;
-    }
-
-    video {
-      display: block;
-      width: 100%;
-      height: auto;
-      background: #000000;
-    }
-
-    .links {
-      margin-top: 16px;
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 9px 14px;
-      border-radius: 10px;
-      border: 1px solid var(--line);
-      color: var(--accent);
-      background: #ffffff;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .button:hover {
-      background: #f2f5fa;
-    }
-
-    .note {
-      color: var(--muted);
-      font-size: 14px;
-      margin-top: 16px;
-    }
-
-    .footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 28px;
-    }
-
-    @media (max-width: 640px) {
-      .page {
-        padding: 32px 14px 48px;
-      }
-
-      h1 {
-        font-size: 26px;
-      }
-
-      .card {
-        padding: 18px;
-        border-radius: 14px;
-      }
-
-      .video-card {
-        padding: 18px;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Interactive video companion for differentiable shared-grasp connectivity: pose generation, Cold/Warm trajectory optimization, and recorded robot experiments.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Differentiable Shared-Grasp Connectivity · Video Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/data/catalog.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
-
 <body>
-  <main class="page">
-    <header class="header">
-      <div class="tag">supplementary material</div>
-      <h1>Supplementary Video</h1>
-      <p class="subtitle">
-        This page provides an backup copy of the supplementary video
-        for review purposes. The video illustrates the generated regrasp sequence
-        and its real-world execution.
-      </p>
-    </header>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="#top">Shared-Grasp Connectivity<span>Video companion</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#method">Method</a><a href="#one-step">Pose generation</a><a href="#trajectory">Trajectory optimization</a><a href="#hardware">Robot experiments</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero wrap" id="top" aria-labelledby="page-title">
+    <div class="hero-copy">
+      <p class="eyebrow">Regrasp object pose planning</p>
+      <h1 id="page-title">Differentiable <br>Shared-Grasp <br>Connectivity</h1>
+      <p class="hero-intro">Optimize intermediate placements. <br>Connect them through feasible grasps. <br>Verify the resulting robot motions.</p>
+      <p class="hero-description">A learned grasp-feasibility model provides a pose gradient. Analytical checks and motion planning identify executable pick-and-place sequences among the proposed placements.</p>
+      <div class="hero-links"><a class="button primary" href="#one-step">Explore the optimization</a><a class="text-link" href="#hardware">Watch the robot experiments</a></div>
+    </div>
+    <figure class="hero-media">
+      <div class="media-caption-top"><span>From planned poses to physical execution</span><span class="media-type">Recorded experiment</span></div>
+      <video id="hero-video" controls playsinline preload="metadata" poster="assets/images/hardware-poster.jpg" aria-label="Recorded robot experiments for Bottle, Pentagon and Mug">
+        <source src="video_1.mp4" type="video/mp4">
+        <a href="video_1.mp4">Download the recorded experiment video</a>
+      </video>
+      <figcaption>The original supplementary recording, with planned sequences above and physical robot execution below.</figcaption>
+    </figure>
+  </section>
 
-    <section class="card video-card">
-      <h2 class="section-title">Regrasp Sequence Optimization and Execution</h2>
-      <p class="description">
-        This video shows a representative multi-step regrasp planning result from
-        random initial and goal object poses. It visualizes the generated intermediate
-        object poses, the resulting pick-and-place sequence, and the corresponding
-        real-world robot execution.
-      </p>
-
-      <div class="video-wrap">
-        <video controls preload="metadata">
-          <source src="video_1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+  <section class="method-section" id="method" aria-labelledby="method-title">
+    <div class="wrap">
+      <div class="section-intro compact-intro"><p class="eyebrow">The idea</p><h2 id="method-title">Use connectivity to guide the placement.</h2><p>When a direct transfer has no shared grasp, an intermediate pose can connect two transfers. The incoming and outgoing grasps can differ.</p></div>
+      <div class="method-layout">
+        <figure class="connectivity-figure">
+          <svg viewBox="0 0 650 220" role="img" aria-labelledby="connectivity-title connectivity-desc">
+            <title id="connectivity-title">A shared-grasp chain through an intermediate pose</title>
+            <desc id="connectivity-desc">Grasp A connects the initial and intermediate poses. A different grasp B connects the intermediate and goal poses. This is a connectivity schematic, not a robot trajectory.</desc>
+            <path d="M112 98 Q220 20 324 98" class="connection connection-a"/>
+            <path d="M326 98 Q433 20 540 98" class="connection connection-b"/>
+            <text x="215" y="38" class="svg-edge" text-anchor="middle">shared grasp A</text><text x="435" y="38" class="svg-edge" text-anchor="middle">shared grasp B</text>
+            <g class="pose pose-initial" transform="translate(75 79) rotate(-20 35 38)"><path d="M20 0h30v15l20 13v62H0V28l20-13z"/></g>
+            <g class="pose pose-mid" transform="translate(290 72)"><path d="M20 0h30v15l20 13v62H0V28l20-13z"/></g>
+            <g class="pose pose-goal" transform="translate(505 79) rotate(20 35 38)"><path d="M20 0h30v15l20 13v62H0V28l20-13z"/></g>
+            <text x="110" y="208" text-anchor="middle" class="svg-label">Initial pose</text><text x="325" y="208" text-anchor="middle" class="svg-label">Intermediate pose</text><text x="540" y="208" text-anchor="middle" class="svg-label">Goal pose</text>
+          </svg>
+          <figcaption>Connectivity schematic. Each edge requires a grasp feasible at both of its endpoint poses.</figcaption>
+        </figure>
+        <div class="method-explanation">
+          <h3>Compose adjacent-pose scores</h3><p>The energy model evaluates grasp feasibility at a pose. Composing the two endpoint energies gives a differentiable pair score <span class="math">Q</span>. Summing these scores guides the intermediate poses.</p>
+          <p class="equation" aria-label="J sequence equals Q of the initial and intermediate poses plus Q of the intermediate and goal poses">J<sub>seq</sub> = Q(T<sub>init</sub>, T<sub>mid</sub>) + Q(T<sub>mid</sub>, T<sub>goal</sub>)</p>
+          <p>For longer sequences, the sum extends over every adjacent pair. Verification-driven search starts with a short sequence and increases its length after analytical failure.</p>
+        </div>
       </div>
-
-      <div class="links">
-        <a class="button" href="video_1.mp4">Download MP4</a>
+      <div class="method-notes">
+        <div><h3>Propose poses</h3><p>Optimize position and yaw within fixed stable placement modes, with matched initialized candidates.</p></div>
+        <div><h3>Verify connections</h3><p>Check actual shared grasps, inverse kinematics and collisions. Use full motion planning for executable robot paths.</p></div>
+        <div><h3>Optimize the motion</h3><p>Combine connectivity guidance with an explicit motion objective, retaining the paths that pass physical verification.</p></div>
       </div>
+    </div>
+  </section>
 
-      <p class="note">
-        Video format: MP4, H.264, 1280 × 720, 30 fps. No audio is included.
-      </p>
-    </section>
-  </main>
+  <section class="wrap experiment-section" id="one-step" aria-labelledby="one-step-title">
+    <div class="section-intro"><p class="eyebrow">One intermediate pose</p><h2 id="one-step-title">Watch the candidate poses move.</h2><p>The video follows the same candidates through <span class="math">J<sub>seq</sub></span> optimization. Beside it, the analytical reference and final distributions show where the different generating objectives place their candidates.</p></div>
+    <div class="object-tabs" id="one-step-tabs" role="tablist" aria-label="Choose an object for pose generation"></div>
+    <div id="one-step-gallery" role="tabpanel" aria-labelledby="one-step-tabs-bottle">
+    <div class="experiment-heading"><h3 id="one-step-object-title">Bottle</h3><p>20 grasps <span>·</span> 200 candidates <span>·</span> 20 pose updates</p></div>
+    <div class="one-step-layout">
+      <figure class="video-figure">
+        <div class="panel-heading"><h4><span class="math">J<sub>seq</sub></span> optimization process</h4><span>Native WRS replay</span></div>
+        <video id="one-step-video" controls playsinline preload="metadata" aria-label="Bottle one-step pose optimization"></video>
+        <figcaption>Twenty candidate identities, selected by final cost, are tracked across the saved updates. Cyan and green mark the initial and goal objects.</figcaption>
+        <a class="download-link" id="one-step-download" href="assets/videos/one-step-bottle.mp4" download>Download this video</a>
+      </figure>
+      <figure class="result-figure">
+        <div class="panel-heading"><h4>Analytical reference &amp; final distribution</h4><button class="text-button" id="open-comparison" type="button">Expand comparison</button></div>
+        <div class="objective-tabs" role="tablist" aria-label="Choose a final generating objective">
+          <button type="button" role="tab" aria-selected="true" id="objective-tab-sum" aria-controls="objective-result-panel" data-objective="sum"><span class="math">J<sub>seq</sub></span><span>Ordinary</span></button>
+          <button type="button" role="tab" aria-selected="false" id="objective-tab-jh" aria-controls="objective-result-panel" data-objective="jh"><span class="math">J<sub>seq</sub><sup>h</sup></span><span>Truncated</span></button>
+          <button type="button" role="tab" aria-selected="false" id="objective-tab-reg" aria-controls="objective-result-panel" data-objective="reg"><span class="math">J<sub>seq</sub><sup>λ</sup></span><span>Balanced</span></button>
+        </div>
+        <div id="objective-result-panel" role="tabpanel" aria-labelledby="objective-tab-sum">
+        <button class="image-button" id="expand-current-result" type="button" aria-label="Open the final pose distribution at full size"><img id="one-step-result" width="1400" height="650" alt="Bottle analytical reference and ordinary-objective final pose distributions" loading="lazy"></button>
+        </div>
+        <figcaption>Arrows encode position and yaw. Columns separate stable modes. Blue/red grid marks indicate analytical feasible/infeasible poses. Each cost row has its own Loss scale.</figcaption>
+      </figure>
+    </div>
+    </div>
+    <div class="interpretation"><h3>Generation and ranking have different roles.</h3><p>The balanced objective adds a penalty for unequal adjacent-edge scores. It changes where candidates are generated. The ordinary score can then rank the saved candidates. The benchmark supports this combination in pooled validity, with object-level exceptions including Bottle and Mug.</p></div>
+    <details class="experiment-details"><summary>Setup and how to read these examples</summary><div><p>These illustrations use the 10k-pose models, the canonical FPS20 grasp pools, 200 candidates and 20 updates. The first registered one-step query for each object is used. The quantitative one-step benchmark uses 1000 candidates and ten updates on its registered query set.</p><p>The video always follows ordinary <span class="math">J<sub>seq</sub></span> generation. The adjacent objective tabs change the final distribution being inspected. A feasible shared-grasp chain is an analytical result. The trajectory gallery below includes full robot motion verification.</p></div></details>
+  </section>
+
+  <section class="trajectory-section" id="trajectory" aria-labelledby="trajectory-title">
+    <div class="wrap">
+      <div class="section-intro"><p class="eyebrow">Executable trajectories</p><h2 id="trajectory-title">Follow the path, from two starting conditions.</h2><p>Connectivity guidance is combined with an explicit motion objective. Cold starts search without a supplied path. Warm starts begin with a shared executable initialization. The videos show pose updates, verified checkpoints and the final robot motion.</p></div>
+      <p class="equation trajectory-equation">F<sub>seq</sub> = B + β J<sub>seq</sub><span>B: motion objective &nbsp;·&nbsp; β: independently calibrated weight</span></p>
+      <div class="object-tabs" id="trajectory-tabs" role="tablist" aria-label="Choose an object for trajectory optimization"></div>
+      <div id="trajectory-gallery" role="tabpanel" aria-labelledby="trajectory-tabs-big_screwer">
+      <div class="experiment-heading"><h3 id="trajectory-object-title">Pentagon</h3><p>20 grasps <span>·</span> 20 updates <span>·</span> motion checks every five updates</p></div>
+      <div class="playback-toolbar"><button class="button primary" id="play-together" type="button">Play together</button><button class="button" id="reset-pair" type="button">Reset</button><label class="sync-label"><input type="checkbox" id="sync-playback" checked> Link playback</label><p class="playback-status" id="playback-status" role="status" aria-live="polite"></p></div>
+      <div class="trajectory-videos">
+        <figure class="video-figure"><div class="panel-heading"><h4>Cold start</h4><span>No supplied trajectory</span></div><video id="cold-video" controls playsinline preload="metadata" aria-label="Pentagon Cold-start trajectory optimization"></video><figcaption id="cold-summary">Search for an executable trajectory, then optimize the verified output.</figcaption><a class="download-link" id="cold-download" href="assets/videos/trajectory-big_screwer-cold.mp4" download>Download Cold video</a></figure>
+        <figure class="video-figure"><div class="panel-heading"><h4>Warm start</h4><span>Common executable initialization</span></div><video id="warm-video" controls playsinline preload="metadata" aria-label="Pentagon Warm-start trajectory optimization"></video><figcaption id="warm-summary">Optimize from the saved common initial path.</figcaption><a class="download-link" id="warm-download" href="assets/videos/trajectory-big_screwer-warm.mp4" download>Download Warm video</a></figure>
+      </div>
+      <div class="trajectory-explanation">
+        <figure class="length-figure"><div class="panel-heading"><h4>Verified TCP path length</h4><div class="chart-legend"><span class="legend-cold">Cold</span><span class="legend-warm">Warm</span></div></div><div id="length-chart" aria-live="polite"></div><figcaption>Markers are saved motion-check results. Cold has no initial path length. Overlapping curves indicate identical selected lengths.</figcaption></figure>
+        <div class="mechanism-note"><h3>What changes during optimization?</h3><p>The intermediate pose and internal joint paths can move continuously. Motion checks can also accept a replan, change the shared-grasp pair, or select another candidate.</p><p>The clips label candidate and grasp-pair changes at the saved checkpoints. The length trace follows the selected verified output.</p><div class="scene-legend"><span><i class="key mid-key"></i>Intermediate object pose</span><span><i class="key moving-key"></i>Carried object</span><span><i class="key first-path-key"></i>First-transfer TCP path</span><span><i class="key second-path-key"></i>Second-transfer TCP path</span></div></div>
+      </div>
+      </div>
+      <details class="experiment-details"><summary>Initialization, provenance and playback</summary><div><p>Both starts use the same registered pose pair for the selected object. Warm uses the saved common executable initialization. These illustrative queries are the first in numerical order with an available Warm path and final executable <span class="math">J<sub>seq</sub></span> paths under both starts.</p><p>All trajectories and updates are read from the completed, audited 20-grasp experiment. Path hashes, TCP lengths and the mid-pose grasp anchors are checked before rendering. Intermediate pose updates are displayed between motion checks, with verified paths shown at the checkpoints. Animation speed is adjusted for viewing.</p><p>The quantitative study includes ten valid pose pairs per object. This gallery presents individual rollouts, while the manuscript reports query-level success, paired lengths and uncertainty.</p></div></details>
+    </div>
+  </section>
+
+  <section class="wrap hardware-section" id="hardware" aria-labelledby="hardware-title">
+    <div class="hardware-heading"><div class="section-intro"><p class="eyebrow">Physical execution</p><h2 id="hardware-title">The recorded robot experiments.</h2><p>The original supplementary video shows Bottle, Pentagon and Mug regrasp sequences, alongside their physical execution.</p></div><a class="button" href="video_1.mp4" download>Download original MP4</a></div>
+    <figure class="hardware-figure"><video id="hardware-video" controls playsinline preload="none" poster="assets/images/hardware-poster.jpg" aria-label="Original supplementary hardware experiment video"><source src="video_1.mp4" type="video/mp4"></video><figcaption>The original recording is retained unchanged. MP4 / H.264 / 1280 × 720 / 30 fps / 1 min 57 s / no audio.</figcaption></figure>
+  </section>
+  <section class="wrap evidence-section" aria-labelledby="evidence-title"><h2 id="evidence-title">Reading the evidence</h2><div><p><strong>Pose generation</strong> evaluates analytical candidate validity. <strong>Trajectory optimization</strong> evaluates executable paths and their lengths. <strong>Hardware videos</strong> show the recorded physical trials.</p><p>The examples explain how the method behaves. Query-level comparisons, object-specific outcomes and uncertainty are reported in the manuscript.</p></div></section>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Supplementary video companion · Regrasp object pose planning</p><div><a href="assets/data/examples.json" download>Example metadata</a><a href="https://github.com/UccI22911/UccI22911.github.io" target="_blank" rel="noopener noreferrer">Source repository</a></div></div></footer>
+<dialog id="figure-dialog" aria-labelledby="figure-dialog-title"><div class="dialog-header"><h2 id="figure-dialog-title">Final pose distributions</h2><button id="close-figure" class="button" type="button" autofocus>Close</button></div><div class="dialog-image"><img id="expanded-figure" alt="Full-size analytical reference and generated pose distributions"></div><a id="original-figure-link" class="text-link" target="_blank" rel="noopener">Open original image</a></dialog>
+<noscript><div class="noscript">The object galleries use JavaScript. <a href="video_1.mp4">The original hardware video is also available directly.</a></div></noscript>
 </body>
 </html>

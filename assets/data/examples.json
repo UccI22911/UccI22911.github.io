@@ -1,0 +1,1137 @@
+{
+  "objects": [
+    {
+      "id": "bottle",
+      "label": "Bottle",
+      "oneStep": {
+        "queryId": "bottle_q0000",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 5,
+        "video": "assets/videos/one-step-bottle.mp4",
+        "poster": "assets/images/one-step-bottle-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-bottle-sum.png",
+          "jh": "assets/images/one-step-bottle-jh.png",
+          "reg": "assets/images/one-step-bottle-reg.png",
+          "comparison": "assets/images/one-step-bottle-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "mug",
+      "label": "Mug",
+      "oneStep": {
+        "queryId": "mug_q0000",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 2,
+        "video": "assets/videos/one-step-mug.mp4",
+        "poster": "assets/images/one-step-mug-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-mug-sum.png",
+          "jh": "assets/images/one-step-mug-jh.png",
+          "reg": "assets/images/one-step-mug-reg.png",
+          "comparison": "assets/images/one-step-mug-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "bunny_lowpoly",
+      "label": "Bunny",
+      "oneStep": {
+        "queryId": "bunny_lowpoly_q0000",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 7,
+        "video": "assets/videos/one-step-bunny_lowpoly.mp4",
+        "poster": "assets/images/one-step-bunny_lowpoly-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-bunny_lowpoly-sum.png",
+          "jh": "assets/images/one-step-bunny_lowpoly-jh.png",
+          "reg": "assets/images/one-step-bunny_lowpoly-reg.png",
+          "comparison": "assets/images/one-step-bunny_lowpoly-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "big_screwer",
+      "label": "Pentagon",
+      "oneStep": {
+        "queryId": "big_screwer_q0001",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 7,
+        "video": "assets/videos/one-step-big_screwer.mp4",
+        "poster": "assets/images/one-step-big_screwer-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-big_screwer-sum.png",
+          "jh": "assets/images/one-step-big_screwer-jh.png",
+          "reg": "assets/images/one-step-big_screwer-reg.png",
+          "comparison": "assets/images/one-step-big_screwer-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "cracker_box",
+      "label": "Cracker Box",
+      "oneStep": {
+        "queryId": "cracker_box_q0001",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 6,
+        "video": "assets/videos/one-step-cracker_box.mp4",
+        "poster": "assets/images/one-step-cracker_box-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-cracker_box-sum.png",
+          "jh": "assets/images/one-step-cracker_box-jh.png",
+          "reg": "assets/images/one-step-cracker_box-reg.png",
+          "comparison": "assets/images/one-step-cracker_box-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "pitcher",
+      "label": "Pitcher",
+      "oneStep": {
+        "queryId": "pitcher_q0000",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 6,
+        "video": "assets/videos/one-step-pitcher.mp4",
+        "poster": "assets/images/one-step-pitcher-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-pitcher-sum.png",
+          "jh": "assets/images/one-step-pitcher-jh.png",
+          "reg": "assets/images/one-step-pitcher-reg.png",
+          "comparison": "assets/images/one-step-pitcher-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "chips_can",
+      "label": "Chips Can",
+      "oneStep": {
+        "queryId": "chips_can_q0000",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 2,
+        "video": "assets/videos/one-step-chips_can.mp4",
+        "poster": "assets/images/one-step-chips_can-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-chips_can-sum.png",
+          "jh": "assets/images/one-step-chips_can-jh.png",
+          "reg": "assets/images/one-step-chips_can-reg.png",
+          "comparison": "assets/images/one-step-chips_can-comparison.png"
+        }
+      }
+    },
+    {
+      "id": "power_drill",
+      "label": "Power Drill",
+      "oneStep": {
+        "queryId": "power_drill_q0013",
+        "grasps": 20,
+        "candidates": 200,
+        "updates": 20,
+        "modes": 3,
+        "video": "assets/videos/one-step-power_drill.mp4",
+        "poster": "assets/images/one-step-power_drill-poster.jpg",
+        "images": {
+          "sum": "assets/images/one-step-power_drill-sum.png",
+          "jh": "assets/images/one-step-power_drill-jh.png",
+          "reg": "assets/images/one-step-power_drill-reg.png",
+          "comparison": "assets/images/one-step-power_drill-comparison.png"
+        }
+      }
+    }
+  ],
+  "trajectory": [
+    {
+      "object": "bottle",
+      "condition": "Cold",
+      "query": 57,
+      "video": "assets/videos/trajectory-bottle-cold.mp4",
+      "poster": "assets/images/trajectory-bottle-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.712792804400886,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 62,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 2.1534208577605973,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.8471618582565306,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.786676213934817,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.712792804400886,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "bottle",
+      "condition": "Warm",
+      "query": 57,
+      "video": "assets/videos/trajectory-bottle-warm.mp4",
+      "poster": "assets/images/trajectory-bottle-warm-poster.jpg",
+      "initialLength": 3.5925498476856967,
+      "finalLength": 1.712792804400886,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 37,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 3.5925498476856967,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 62,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 2.1534208577605973,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.8471618582565306,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.786676213934817,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 85,
+          "gids": [
+            8,
+            2
+          ],
+          "length": 1.712792804400886,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "mug",
+      "condition": "Cold",
+      "query": 516,
+      "video": "assets/videos/trajectory-mug-cold.mp4",
+      "poster": "assets/images/trajectory-mug-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.2216241856155512,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 38,
+          "gids": [
+            3,
+            8
+          ],
+          "length": 1.4200821175335814,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.3238936148788074,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.2457041968441063,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.2216241856155512,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "mug",
+      "condition": "Warm",
+      "query": 516,
+      "video": "assets/videos/trajectory-mug-warm.mp4",
+      "poster": "assets/images/trajectory-mug-warm-poster.jpg",
+      "initialLength": 1.6552091415680723,
+      "finalLength": 1.2216241856155512,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 0,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.6552091415680723,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 38,
+          "gids": [
+            3,
+            8
+          ],
+          "length": 1.4200821175335814,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.3238936148788074,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.2457041968441063,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 31,
+          "gids": [
+            7,
+            17
+          ],
+          "length": 1.2216241856155512,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "bunny_lowpoly",
+      "condition": "Cold",
+      "query": 60,
+      "video": "assets/videos/trajectory-bunny_lowpoly-cold.mp4",
+      "poster": "assets/images/trajectory-bunny_lowpoly-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.8954481294409704,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 111,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.6263900639183175,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 111,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.6281221540532678,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 99,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 2.0947459238662853,
+          "decision": "replace"
+        },
+        {
+          "step": 20,
+          "candidate": 99,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.8954481294409704,
+          "decision": "replace"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "bunny_lowpoly",
+      "condition": "Warm",
+      "query": 60,
+      "video": "assets/videos/trajectory-bunny_lowpoly-warm.mp4",
+      "poster": "assets/images/trajectory-bunny_lowpoly-warm-poster.jpg",
+      "initialLength": 3.9585605130612898,
+      "finalLength": 1.8954481294409704,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 42,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 3.9585605130612898,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 111,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.6263900639183175,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 111,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.6281221540532678,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 42,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.9834483286629347,
+          "decision": "replace"
+        },
+        {
+          "step": 20,
+          "candidate": 99,
+          "gids": [
+            5,
+            9
+          ],
+          "length": 1.8954481294409704,
+          "decision": "replace"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "big_screwer",
+      "condition": "Cold",
+      "query": 20,
+      "video": "assets/videos/trajectory-big_screwer-cold.mp4",
+      "poster": "assets/images/trajectory-big_screwer-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.8225020552436173,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 66,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 2.5924642303345684,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 131,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 2.0220428669463155,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 87,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.850810947211498,
+          "decision": "replace"
+        },
+        {
+          "step": 20,
+          "candidate": 87,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.8225020552436173,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "big_screwer",
+      "condition": "Warm",
+      "query": 20,
+      "video": "assets/videos/trajectory-big_screwer-warm.mp4",
+      "poster": "assets/images/trajectory-big_screwer-warm-poster.jpg",
+      "initialLength": 2.0903889988624536,
+      "finalLength": 1.7490391844500046,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 122,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 2.0903889988624536,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 122,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.98638059955322,
+          "decision": "retain"
+        },
+        {
+          "step": 10,
+          "candidate": 122,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.8701003462346582,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 122,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.7931244325570863,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 122,
+          "gids": [
+            4,
+            1
+          ],
+          "length": 1.7490391844500046,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "cracker_box",
+      "condition": "Cold",
+      "query": 226,
+      "video": "assets/videos/trajectory-cracker_box-cold.mp4",
+      "poster": "assets/images/trajectory-cracker_box-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.3232454144642531,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.4727159253584206,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.4715318203447225,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.376692202841322,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.3232454144642531,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "cracker_box",
+      "condition": "Warm",
+      "query": 226,
+      "video": "assets/videos/trajectory-cracker_box-warm.mp4",
+      "poster": "assets/images/trajectory-cracker_box-warm-poster.jpg",
+      "initialLength": 6.4047302700736735,
+      "finalLength": 1.3232454144642531,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 35,
+          "gids": [
+            13,
+            5
+          ],
+          "length": 6.4047302700736735,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.4727159253584206,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.4715318203447225,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.376692202841322,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 37,
+          "gids": [
+            13,
+            17
+          ],
+          "length": 1.3232454144642531,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "pitcher",
+      "condition": "Cold",
+      "query": 555,
+      "video": "assets/videos/trajectory-pitcher-cold.mp4",
+      "poster": "assets/images/trajectory-pitcher-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.23433012338381,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2924481618042678,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2424795836909566,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2296161562227483,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.23433012338381,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "pitcher",
+      "condition": "Warm",
+      "query": 555,
+      "video": "assets/videos/trajectory-pitcher-warm.mp4",
+      "poster": "assets/images/trajectory-pitcher-warm-poster.jpg",
+      "initialLength": 2.3457607709325967,
+      "finalLength": 1.23433012338381,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 2,
+          "gids": [
+            6,
+            13
+          ],
+          "length": 2.3457607709325967,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2924481618042678,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2424795836909566,
+          "decision": "retain"
+        },
+        {
+          "step": 15,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.2296161562227483,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 113,
+          "gids": [
+            15,
+            13
+          ],
+          "length": 1.23433012338381,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "chips_can",
+      "condition": "Cold",
+      "query": 55,
+      "video": "assets/videos/trajectory-chips_can-cold.mp4",
+      "poster": "assets/images/trajectory-chips_can-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 2.1685481114578176,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 38,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.8845821480521727,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.652047295763115,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.338751381329682,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.1685481114578176,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "chips_can",
+      "condition": "Warm",
+      "query": 55,
+      "video": "assets/videos/trajectory-chips_can-warm.mp4",
+      "poster": "assets/images/trajectory-chips_can-warm-poster.jpg",
+      "initialLength": 3.1974716774742302,
+      "finalLength": 2.1685481114578176,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 3,
+          "gids": [
+            14,
+            16
+          ],
+          "length": 3.1974716774742302,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 38,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.8845821480521727,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.652047295763115,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.338751381329682,
+          "decision": "retain"
+        },
+        {
+          "step": 20,
+          "candidate": 29,
+          "gids": [
+            1,
+            0
+          ],
+          "length": 2.1685481114578176,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "power_drill",
+      "condition": "Cold",
+      "query": 13,
+      "video": "assets/videos/trajectory-power_drill-cold.mp4",
+      "poster": "assets/images/trajectory-power_drill-cold-poster.jpg",
+      "initialLength": null,
+      "finalLength": 1.4448949504549207,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": -1,
+          "gids": [],
+          "length": null,
+          "decision": "no initial path"
+        },
+        {
+          "step": 5,
+          "candidate": 3,
+          "gids": [
+            15,
+            1
+          ],
+          "length": 2.0718965561169553,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 20,
+          "gids": [
+            15,
+            4
+          ],
+          "length": 1.504296484210441,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 40,
+          "gids": [
+            19,
+            12
+          ],
+          "length": 1.4810885720254927,
+          "decision": "replace"
+        },
+        {
+          "step": 20,
+          "candidate": 20,
+          "gids": [
+            15,
+            4
+          ],
+          "length": 1.4448949504549207,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    },
+    {
+      "object": "power_drill",
+      "condition": "Warm",
+      "query": 13,
+      "video": "assets/videos/trajectory-power_drill-warm.mp4",
+      "poster": "assets/images/trajectory-power_drill-warm-poster.jpg",
+      "initialLength": 2.223684812612722,
+      "finalLength": 1.4448949504549207,
+      "checkpoints": [
+        {
+          "step": 0,
+          "candidate": 2,
+          "gids": [
+            15,
+            12
+          ],
+          "length": 2.223684812612722,
+          "decision": "provided initialization"
+        },
+        {
+          "step": 5,
+          "candidate": 3,
+          "gids": [
+            15,
+            1
+          ],
+          "length": 2.0718965561169553,
+          "decision": "replace"
+        },
+        {
+          "step": 10,
+          "candidate": 20,
+          "gids": [
+            15,
+            4
+          ],
+          "length": 1.504296484210441,
+          "decision": "replace"
+        },
+        {
+          "step": 15,
+          "candidate": 40,
+          "gids": [
+            19,
+            12
+          ],
+          "length": 1.4810885720254927,
+          "decision": "replace"
+        },
+        {
+          "step": 20,
+          "candidate": 20,
+          "gids": [
+            15,
+            4
+          ],
+          "length": 1.4448949504549207,
+          "decision": "retain"
+        }
+      ],
+      "motionAnchorAudit": true
+    }
+  ],
+  "hardware": {
+    "video": "video_1.mp4",
+    "poster": "assets/images/hardware-poster.jpg",
+    "duration": 117.066667,
+    "sha256": "9688fef59252c0873e4e295f1d331634fe87a7de2c223873990b639b1da43224"
+  },
+  "notes": {
+    "oneStep": "Independent illustrative B200/K20 runs using the frozen 20-grasp models and objectives. First registered one-step query per object, no selection by result. Bottle matches the current manuscript illustration.",
+    "trajectory": "Read-only replay of audited formal Jseq paths. First numerically ordered query with a supplied Warm path and final executable paths under both starts. Examples illustrate behavior, not aggregate benchmark performance.",
+    "timing": "Playback speeds are adjusted for viewing and are not measured planning or execution latency."
+  }
+}
