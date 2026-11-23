@@ -8,9 +8,11 @@ A buildless GitHub Pages site for the regrasp-planning paper. Open `index.html` 
 - Eight one-step pose-optimization videos, one per object.
 - Sixteen trajectory videos, with Cold and Warm starts for each object.
 - Analytical-reference and final-distribution plots for ordinary, truncated and balanced generating objectives.
-- All eight one-step and sixteen trajectory videos directly visible in responsive grids, with no object or objective tabs.
+- All eight one-step and sixteen trajectory videos directly visible in responsive two-row, four-column grids on wide desktop screens, with no object or objective tabs.
 - Independent linked Cold/Warm playback, verified TCP-length traces and full-size result figures for every object.
 - Native MathML equations for actual shared grasps, finite-pool mean-normalized pair scores, stable-mode pose parameters, ordinary/balanced/truncated objectives and trajectory optimization.
+
+The page uses a wider content region (up to 1840px). Method illustrations in `assets/images/paper/` are byte-identical copies of the current manuscript overview, shared-grasp, energy-composition and stable-placement figures, with click-to-enlarge views.
 
 ## Scientific scope
 
