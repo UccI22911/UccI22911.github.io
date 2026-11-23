@@ -9,6 +9,7 @@ A buildless GitHub Pages site for the regrasp-planning paper. Open `index.html` 
 - Sixteen trajectory videos, with Cold and Warm starts for each object.
 - Analytical-reference and final-distribution plots for ordinary, truncated and balanced generating objectives.
 - All eight one-step and sixteen trajectory videos directly visible in responsive two-row, four-column grids on wide desktop screens, with no object or objective tabs.
+- All 25 videos initialize with muted autoplay and looping, retaining native playback controls. Starting another video or scrolling does not pause them.
 - Independent linked Cold/Warm playback, verified TCP-length traces and full-size result figures for every object.
 - Native MathML equations for actual shared grasps, finite-pool mean-normalized pair scores, stable-mode pose parameters, ordinary/balanced/truncated objectives and trajectory optimization.
 

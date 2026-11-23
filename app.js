@@ -3,20 +3,6 @@
   const data = window.REGRASP_DATA;
   if (!data) return;
   const allVideos = [...document.querySelectorAll('video')];
-  const pairControllers = new Map();
-  function pauseOutside(card, active) {
-    allVideos.forEach(video => {
-      if (video === active || (card && card.contains(video))) return;
-      if (!video.paused) video.pause();
-    });
-  }
-  allVideos.forEach(video => {
-    video.addEventListener('play', () => {
-      const card = video.closest('.trajectory-card');
-      const controller = card && pairControllers.get(card);
-      pauseOutside(controller && (controller.linked.checked || controller.starting) ? card : null, video);
-    });
-  });
   function drawLengthChart(container) {
     const id = container.dataset.chart;
     const object = data.objects.find(row => row.id === id);
@@ -59,17 +45,12 @@
     const button = card.querySelector('[data-play-pair]'), reset = card.querySelector('[data-reset-pair]');
     const linked = card.querySelector('[data-link-pair]'), status = card.querySelector('.playback-status');
     let seeking = false;
-    const controller = {linked, starting: false};
-    pairControllers.set(card, controller);
     const updateButton = () => { button.textContent = videos.some(video => !video.paused) ? 'Pause pair' : 'Play pair'; };
     button.addEventListener('click', async () => {
       if (videos.some(video => !video.paused)) { videos.forEach(video => video.pause()); return; }
-      pauseOutside(card);
       if (videos.every(video => video.ended)) videos.forEach(video => { video.currentTime = 0; });
-      controller.starting = true;
       try { await Promise.all(videos.map(video => video.play())); status.textContent = ''; }
       catch { status.textContent = 'Use the native video controls to start playback.'; }
-      finally { controller.starting = false; }
       updateButton();
     });
     reset.addEventListener('click', () => {
@@ -87,11 +68,14 @@
       });
       video.addEventListener('error', () => { status.textContent = 'Try the MP4 download link if this video is unavailable.'; });
     });
+    updateButton();
   });
-  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-    if (!entry.isIntersecting && !entry.target.paused) entry.target.pause();
-  }), {threshold: .02});
-  allVideos.forEach(video => observer.observe(video));
+  // All clips initialize together and loop independently, including offscreen clips.
+  allVideos.forEach(video => {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.play().catch(() => {});
+  });
   const dialog = document.getElementById('figure-dialog');
   let trigger;
   document.querySelectorAll('[data-image]').forEach(button => button.addEventListener('click', () => {
