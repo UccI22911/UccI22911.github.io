@@ -9,7 +9,7 @@ A buildless GitHub Pages site for the regrasp-planning paper. Open `index.html` 
 - Sixteen trajectory videos, with Cold and Warm starts for each object.
 - Analytical-reference and final-distribution plots for ordinary, truncated and balanced generating objectives.
 - All eight one-step and sixteen trajectory videos directly visible in responsive two-row, four-column grids on wide desktop screens, with no object or objective tabs.
-- Sixteen additional fixed-grasp/candidate optimization videos in a two-row by eight-object gallery, Cold above Warm. Each clip shows archived synchronized mid-pose/robot-path states and stops before a replan.
+- Sixteen additional fixed-grasp/candidate optimization videos in a two-row by eight-object gallery, Cold above Warm. Each clip shows every integer update of synchronized mid-pose/robot-path optimization and stops before a replan. Both the pose-generation and fixed-grasp galleries use 30 fps, with one optimization update every 0.2 seconds.
 - All 41 videos initialize with muted autoplay and looping, retaining native playback controls. Starting another video or scrolling does not pause them.
 - Independent linked Cold/Warm playback, verified TCP-length traces and full-size result figures for every object.
 - Thirteen original equation captures cropped directly from the clean manuscript PDF, preserving its typesetting and equation numbers. Each capture opens at full resolution.
@@ -36,4 +36,4 @@ Local-only rendering scripts are in `tools/`, with source hashes, replay audits 
 
 Validation includes all published MP4 decodes, H.264/yuv420p encoding, fast-start MP4s, caption tracks, local links, unchanged original video hash, archived trajectory anchors/lengths, and browser checks for the fully expanded grids, PDF equation capture rendering, figure zoom, independent synchronized pairs and responsive widths.
 
-Fixed-pair example selection, source hashes, anchor/length/topology checks, checkpoint decision audits and rendering records are under `.build/fixed-pair/`. These videos use real saved checkpoints, including a shorter Mug Warm interval. They add no new optimization, planning or scientific results.
+Fixed-pair example selection and archived checkpoint audits are under `.build/fixed-pair/`. Every-step visualization recovery and rendering records are under `.build/fixed-pair-every-step-v2/`. The frozen original optimizer is replayed on the original GPU type, using saved initializations and optimizer snapshots. Every update is compared with the archived planar/acceptance record, and reconstructed joints are checked against each archived checkpoint before anchoring the next block. No joint/pose interpolation, new RRT planning, scientific parameter changes or result modifications are used. Intermediate updates are visualizations of optimizer states, while full-motion verification refers to the archived checkpoints. The shorter Mug Warm interval is retained.

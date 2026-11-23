@@ -9,14 +9,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 5,
-        "video": "assets/videos/one-step-bottle.mp4",
+        "video": "assets/videos/one-step-bottle-30fps.mp4",
         "poster": "assets/images/one-step-bottle-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-bottle-sum.png",
           "jh": "assets/images/one-step-bottle-jh.png",
           "reg": "assets/images/one-step-bottle-reg.png",
           "comparison": "assets/images/one-step-bottle-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "8905541e7b842aaeaa40aba63b0e11fd7d67e506aa988f3e7fefdf24906d56d6"
       }
     },
     {
@@ -28,7 +32,7 @@
         "candidates": 200,
         "updates": 20,
         "modes": 2,
-        "video": "assets/videos/one-step-mug-q0015-v2.mp4",
+        "video": "assets/videos/one-step-mug-q0015-v2-30fps.mp4",
         "poster": "assets/images/one-step-mug-q0015-v2-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-mug-q0015-v2-sum.png",
@@ -41,7 +45,11 @@
           1,
           1
         ],
-        "directSharedGrasps": 0
+        "directSharedGrasps": 0,
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "62f41059c08c49e8a585965558bfa45fc383c1465f6244c5000780b031924622"
       }
     },
     {
@@ -53,14 +61,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 7,
-        "video": "assets/videos/one-step-bunny_lowpoly.mp4",
+        "video": "assets/videos/one-step-bunny_lowpoly-30fps.mp4",
         "poster": "assets/images/one-step-bunny_lowpoly-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-bunny_lowpoly-sum.png",
           "jh": "assets/images/one-step-bunny_lowpoly-jh.png",
           "reg": "assets/images/one-step-bunny_lowpoly-reg.png",
           "comparison": "assets/images/one-step-bunny_lowpoly-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "362f27c2f11345a56058ab079edd2eedb639df7e881bd9e8e9ba450c258a6c25"
       }
     },
     {
@@ -72,14 +84,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 7,
-        "video": "assets/videos/one-step-big_screwer.mp4",
+        "video": "assets/videos/one-step-big_screwer-30fps.mp4",
         "poster": "assets/images/one-step-big_screwer-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-big_screwer-sum.png",
           "jh": "assets/images/one-step-big_screwer-jh.png",
           "reg": "assets/images/one-step-big_screwer-reg.png",
           "comparison": "assets/images/one-step-big_screwer-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "0a6fe1e16eb7e1fef06aefad9f9f3e2039c8d2fe74f7ceb8854b3bc64cd21a8f"
       }
     },
     {
@@ -91,14 +107,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 6,
-        "video": "assets/videos/one-step-cracker_box.mp4",
+        "video": "assets/videos/one-step-cracker_box-30fps.mp4",
         "poster": "assets/images/one-step-cracker_box-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-cracker_box-sum.png",
           "jh": "assets/images/one-step-cracker_box-jh.png",
           "reg": "assets/images/one-step-cracker_box-reg.png",
           "comparison": "assets/images/one-step-cracker_box-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "c7523c7bad90d983ffcb67db5c9fd962319fcc55a77f614d31b213d8666f1b3c"
       }
     },
     {
@@ -110,14 +130,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 6,
-        "video": "assets/videos/one-step-pitcher.mp4",
+        "video": "assets/videos/one-step-pitcher-30fps.mp4",
         "poster": "assets/images/one-step-pitcher-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-pitcher-sum.png",
           "jh": "assets/images/one-step-pitcher-jh.png",
           "reg": "assets/images/one-step-pitcher-reg.png",
           "comparison": "assets/images/one-step-pitcher-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "b92abe011e12673d2afbae6d19fc51b1f6bb6219f8eca47d6526de571e88c245"
       }
     },
     {
@@ -129,14 +153,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 2,
-        "video": "assets/videos/one-step-chips_can.mp4",
+        "video": "assets/videos/one-step-chips_can-30fps.mp4",
         "poster": "assets/images/one-step-chips_can-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-chips_can-sum.png",
           "jh": "assets/images/one-step-chips_can-jh.png",
           "reg": "assets/images/one-step-chips_can-reg.png",
           "comparison": "assets/images/one-step-chips_can-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "dd4b96c3395c6dcc6f412d4fd6a4f6b7ce00d1aa61f31174d1162bc917110e2e"
       }
     },
     {
@@ -148,14 +176,18 @@
         "candidates": 200,
         "updates": 20,
         "modes": 3,
-        "video": "assets/videos/one-step-power_drill.mp4",
+        "video": "assets/videos/one-step-power_drill-30fps.mp4",
         "poster": "assets/images/one-step-power_drill-poster.jpg",
         "images": {
           "sum": "assets/images/one-step-power_drill-sum.png",
           "jh": "assets/images/one-step-power_drill-jh.png",
           "reg": "assets/images/one-step-power_drill-reg.png",
           "comparison": "assets/images/one-step-power_drill-comparison.png"
-        }
+        },
+        "fps": 30,
+        "updateIntervalSeconds": 0.2,
+        "playbackSpeedRelativeToPrevious": 2,
+        "sha256": "afa12bf044bccdd026087fee2ae61e0895b2c5661fe9c5013cfc92ba1e1dccc0"
       }
     }
   ],
@@ -1139,7 +1171,7 @@
     "oneStep": "Independent illustrative B200/K20 runs using the frozen 20-grasp models and objectives. First registered one-step query per object, except Mug: first subsequent query passing endpoint environment and grasp checks with no direct shared grasp, selected before optimization. Manuscript Fig. 7 uses B200/K10, and the quantitative benchmark uses B1000/K10.",
     "trajectory": "Read-only replay of audited formal Jseq paths. First numerically ordered query with a supplied Warm path and final executable paths under both starts. Examples illustrate behavior, not aggregate benchmark performance.",
     "timing": "Playback speeds are adjusted for viewing and are not measured planning or execution latency.",
-    "fixedPair": "Actual archived optimization checkpoints with the same candidate, path initialization and grasp pair throughout each displayed interval. Cold starts at a recorded initialized path. Warm follows its supplied candidate. Clips end before the next accepted replan and show no interpolated joint/pose states. Intervals are selected by longest uninterrupted verified duration, then registration/candidate order, without selecting by length improvement. These are mechanism examples, not a paired sample or an isolated J-gradient effect."
+    "fixedPair": "Every integer update in each fixed-candidate/fixed-grasp interval, rendered at 30 fps with one update every 0.2 s. Intermediate states are reconstructed with the frozen optimizer and checked against per-update planar/acceptance logs and archived joint-path checkpoints. Replays use the original GPU type and reproduce the archived checkpoint joint arrays exactly. Exact archived checkpoints anchor each five-step block. Intermediate updates have not undergone new full-motion verification. No joint/pose interpolation or new motion planning. Cold starts after path initialization. Warm follows its supplied candidate. Clips end before an accepted replan. Intervals are selected by longest uninterrupted verified duration, then registration/candidate order, without selecting by length improvement. These are mechanism examples, not a paired sample or an isolated J-gradient effect."
   },
   "fixedPair": [
     {
@@ -1156,12 +1188,12 @@
       "initial_length": 2.0086206466852854,
       "final_length": 1.7282416753959349,
       "length_change": -0.2803789712893505,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 2.0086206466852854,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             17
@@ -1176,12 +1208,97 @@
             0.23507913947105408,
             0.3823065757751465,
             5.879086017608643
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 1.9795636393845204,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.2345791459083557,
+            0.3818065822124481,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.2345791459083557,
+            0.3818065822124481,
+            5.868614196777344
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.9579576470763824,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23407940566539764,
+            0.38130640983581543,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23407940566539764,
+            0.38130640983581543,
+            5.858252048492432
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.9221892739935098,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23358100652694702,
+            0.3808063864707947,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23358100652694702,
+            0.3808063864707947,
+            5.848359107971191
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.9029746997099621,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23308388888835907,
+            0.3803066611289978,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23308388888835907,
+            0.3803066611289978,
+            5.839095592498779
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.881603621199585,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             17
@@ -1196,12 +1313,97 @@
             0.23258541524410248,
             0.3798084259033203,
             5.82944393157959
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.862357456952783,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23208647966384888,
+            0.37931039929389954,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23208647966384888,
+            0.37931039929389954,
+            5.81974983215332
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.8358154946686491,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23159562051296234,
+            0.37882155179977417,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23159562051296234,
+            0.37882155179977417,
+            5.811583995819092
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.828345506888412,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23110869526863098,
+            0.3783380091190338,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23110869526863098,
+            0.3783380091190338,
+            5.804686546325684
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.7990373253309357,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23062144219875336,
+            0.37785398960113525,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23062144219875336,
+            0.37785398960113525,
+            5.798694133758545
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.791335545403714,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             17
@@ -1216,12 +1418,97 @@
             0.2301311194896698,
             0.3773660361766815,
             5.793076038360596
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.7777903745041042,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.2296379804611206,
+            0.3768748342990875,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.2296379804611206,
+            0.3768748342990875,
+            5.787463188171387
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.7600807905871938,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.22914311289787292,
+            0.37638136744499207,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.22914311289787292,
+            0.37638136744499207,
+            5.781948566436768
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.751907253415248,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.22864705324172974,
+            0.37588566541671753,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.22864705324172974,
+            0.37588566541671753,
+            5.776772975921631
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.7415204273418745,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.22815003991127014,
+            0.375387579202652,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.22815003991127014,
+            0.375387579202652,
+            5.772065162658691
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.7282416753959349,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             17
@@ -1236,17 +1523,44 @@
             0.22765277326107025,
             0.37488803267478943,
             5.767995834350586
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-bottle-cold.mp4",
-      "poster": "assets/images/fixed-pair-bottle-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "164015fdc73b10823390e8dd2a4daf21bcc15a8e82333b1e45005425102a4f3d",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-bottle-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-bottle-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "e26ad6a20a97c4a54d854c28678544b375d899cd7a70bf726e3132345cea5f3b",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "bottle",
@@ -1262,12 +1576,12 @@
       "initial_length": 1.8973074498407025,
       "final_length": 1.6517720109217355,
       "length_change": -0.245535438918967,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 1.8973074498407025,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             1
@@ -1282,12 +1596,97 @@
             0.19047586619853973,
             0.43270164728164673,
             1.6486774682998657
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 1.9182562560237906,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18997587263584137,
+            0.43220165371894836,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18997587263584137,
+            0.43220165371894836,
+            1.6382055282592773
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 1.9291018140649698,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18967093527317047,
+            0.43170469999313354,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18967093527317047,
+            0.43170469999313354,
+            1.6449077129364014
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 1.9044473685901573,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1893353909254074,
+            0.4312115013599396,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1893353909254074,
+            0.4312115013599396,
+            1.6527514457702637
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 1.8758017237133995,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18897776305675507,
+            0.4307151734828949,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18897776305675507,
+            0.4307151734828949,
+            1.6611475944519043
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 1.8603655322577692,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             1
@@ -1302,12 +1701,97 @@
             0.18858203291893005,
             0.4302177429199219,
             1.669564962387085
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 1.8398004328180808,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1881561428308487,
+            0.42971739172935486,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1881561428308487,
+            0.42971739172935486,
+            1.6778526306152344
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.8332698165173626,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1877063810825348,
+            0.42921337485313416,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1877063810825348,
+            0.42921337485313416,
+            1.6855871677398682
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.8095341290837181,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.187238872051239,
+            0.4287049174308777,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.187238872051239,
+            0.4287049174308777,
+            1.6922796964645386
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.782353839059132,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18675735592842102,
+            0.4281917214393616,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18675735592842102,
+            0.4281917214393616,
+            1.6976698637008667
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.7664951974601868,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             1
@@ -1322,12 +1806,97 @@
             0.18626615405082703,
             0.4276749789714813,
             1.7024387121200562
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.7544769437680392,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18576636910438538,
+            0.42715445160865784,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18576636910438538,
+            0.42715445160865784,
+            1.706449031829834
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.7446342226542377,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1852588951587677,
+            0.4266303777694702,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1852588951587677,
+            0.4266303777694702,
+            1.7095599174499512
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.7317715653132726,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18474458158016205,
+            0.42610299587249756,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18474458158016205,
+            0.42610299587249756,
+            1.7117520570755005
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.7217158174120581,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18422392010688782,
+            0.4255724251270294,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18422392010688782,
+            0.4255724251270294,
+            1.7129019498825073
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.7110440936601325,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             1
@@ -1342,12 +1911,97 @@
             0.18369530141353607,
             0.42503583431243896,
             1.712897777557373
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.6962140832841157,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.183160200715065,
+            0.42449402809143066,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.183160200715065,
+            0.42449402809143066,
+            1.7118982076644897
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.6834147731706728,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1826203465461731,
+            0.4239482879638672,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1826203465461731,
+            0.4239482879638672,
+            1.7101244926452637
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.672889961726153,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1820785105228424,
+            0.4234006404876709,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1820785105228424,
+            0.4234006404876709,
+            1.7079379558563232
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.6622000504361463,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18153581023216248,
+            0.4228513538837433,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18153581023216248,
+            0.4228513538837433,
+            1.7054997682571411
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.6517720109217355,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             16,
             1
@@ -1362,17 +2016,51 @@
             0.1809932291507721,
             0.4223007559776306,
             1.7028543949127197
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-bottle-warm.mp4",
-      "poster": "assets/images/fixed-pair-bottle-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "28a75f8d1fb9e07d00e9f8c55f1b1730b8ca95001ddd930978264ee99be68ad5",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-bottle-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-bottle-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "c4b84b52a66d71bc045b43cceb00f34947674a152b42bbb6ae30cd5dd223206b",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "mug",
@@ -1388,12 +2076,12 @@
       "initial_length": 1.5775676579980602,
       "final_length": 1.3641441908157967,
       "length_change": -0.21342346718226346,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 1.5775676579980602,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1408,12 +2096,97 @@
             0.2553081810474396,
             0.31862714886665344,
             0.43177688121795654
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 1.560041259482548,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2548081874847412,
+            0.3181271553039551,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2548081874847412,
+            0.3181271553039551,
+            0.4422488510608673
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.543354454683572,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25430768728256226,
+            0.31762853264808655,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25430768728256226,
+            0.31762853264808655,
+            0.45261648297309875
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.5232667789885779,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2538064420223236,
+            0.31713324785232544,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2538064420223236,
+            0.31713324785232544,
+            0.46273162961006165
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.5050985177784346,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25330492854118347,
+            0.3166409730911255,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25330492854118347,
+            0.3166409730911255,
+            0.4727281332015991
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.4857455499192167,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1428,12 +2201,97 @@
             0.25280699133872986,
             0.3161547780036926,
             0.4826892614364624
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.4661843817150577,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2523123323917389,
+            0.315676212310791,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2523123323917389,
+            0.315676212310791,
+            0.49248069524765015
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.448587600654788,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2518289387226105,
+            0.3152121305465698,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2518289387226105,
+            0.3152121305465698,
+            0.5021606683731079
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.4316489961998808,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25136202573776245,
+            0.3147679269313812,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25136202573776245,
+            0.3147679269313812,
+            0.5117107629776001
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.416039987595166,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25092026591300964,
+            0.31436559557914734,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25092026591300964,
+            0.31436559557914734,
+            0.5206522941589355
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.402146122591715,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1448,12 +2306,97 @@
             0.2505026161670685,
             0.31400495767593384,
             0.5289319157600403
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.3920426154984757,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25010988116264343,
+            0.31368300318717957,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25010988116264343,
+            0.31368300318717957,
+            0.5366977453231812
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.3837227946977182,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2497362494468689,
+            0.313397079706192,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2497362494468689,
+            0.313397079706192,
+            0.5438544154167175
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.3756718867193676,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.24937568604946136,
+            0.3131473660469055,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.24937568604946136,
+            0.3131473660469055,
+            0.5503454804420471
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.3685864579313896,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.24902617931365967,
+            0.3129335045814514,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.24902617931365967,
+            0.3129335045814514,
+            0.5563139915466309
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.3641441908157967,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1468,17 +2411,44 @@
             0.24868786334991455,
             0.3127540946006775,
             0.5618600845336914
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-mug-cold.mp4",
-      "poster": "assets/images/fixed-pair-mug-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "26fb7880d9f43337e44029b1ad02982090ae1e62c0974664492517decab21f2c",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-mug-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-mug-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "0c8f7eda049adfeacb90902552ae4103a18e5faae639fa75eab6bbcf70a0a623",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "mug",
@@ -1494,12 +2464,12 @@
       "initial_length": 1.6552091415680723,
       "final_length": 1.4930990716801935,
       "length_change": -0.1621100698878788,
-      "snapshot_count": 3,
+      "snapshot_count": 11,
       "states": [
         {
           "step": 0,
           "length": 1.6552091415680723,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1514,12 +2484,97 @@
             0.1731451451778412,
             0.2869889736175537,
             0.2609182596206665
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 1.650567487354126,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17364513874053955,
+            0.28648898005485535,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17364513874053955,
+            0.28648898005485535,
+            0.27139022946357727
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 1.6444013971015392,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17413568496704102,
+            0.2859964370727539,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17413568496704102,
+            0.2859964370727539,
+            0.28184908628463745
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 1.6077328000569875,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17462126910686493,
+            0.2855933904647827,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17462126910686493,
+            0.2855933904647827,
+            0.29176414012908936
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 1.5765245554408118,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.1750923991203308,
+            0.28535985946655273,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.1750923991203308,
+            0.28535985946655273,
+            0.3004421889781952
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 1.5601300830903606,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1534,12 +2589,97 @@
             0.17554691433906555,
             0.28532013297080994,
             0.30748555064201355
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 1.5416988955700457,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.1759970635175705,
+            0.2854169011116028,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.1759970635175705,
+            0.2854169011116028,
+            0.3132518231868744
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.5336580578015269,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17645615339279175,
+            0.28560957312583923,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17645615339279175,
+            0.28560957312583923,
+            0.31803566217422485
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.5173627292384069,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17692840099334717,
+            0.28587305545806885,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17692840099334717,
+            0.28587305545806885,
+            0.3221399784088135
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.5070754829881114,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17741326987743378,
+            0.28618523478507996,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17741326987743378,
+            0.28618523478507996,
+            0.32559630274772644
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.4930990716801935,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             17
@@ -1554,17 +2694,37 @@
             0.17788031697273254,
             0.28652873635292053,
             0.3277107775211334
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-mug-warm.mp4",
-      "poster": "assets/images/fixed-pair-mug-warm-poster.jpg",
-      "duration": 10.05,
-      "sha256": "a86529f899668a607b36a55ce94b23fc9e18b3edac48e84b345e8021ddafaa3e",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-mug-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-mug-warm-every-step-30fps-poster.jpg",
+      "duration": 3.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "8f4a73a0152908e2c734141913f12e3261237a130ffaca77438541e12ac6fc87",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "bunny_lowpoly",
@@ -1580,12 +2740,12 @@
       "initial_length": 2.271201561660635,
       "final_length": 2.226608424899808,
       "length_change": -0.04459313676082699,
-      "snapshot_count": 3,
+      "snapshot_count": 11,
       "states": [
         {
           "step": 10,
           "length": 2.271201561660635,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1600,12 +2760,97 @@
             -0.03564770892262459,
             0.18835888803005219,
             5.880096435546875
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.282329082900301,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.03614770993590355,
+            0.18785889446735382,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.03614770993590355,
+            0.18785889446735382,
+            5.869624614715576
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 2.294018414164316,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.036647118628025055,
+            0.18736869096755981,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.036647118628025055,
+            0.18736869096755981,
+            5.859287261962891
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 2.270651418550036,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.03714609146118164,
+            0.1868731528520584,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.03714609146118164,
+            0.1868731528520584,
+            5.848872184753418
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 2.257828964728495,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.037642307579517365,
+            0.18638251721858978,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.037642307579517365,
+            0.18638251721858978,
+            5.838494777679443
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 2.2329789125917636,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1620,12 +2865,97 @@
             -0.0381346195936203,
             0.18592976033687592,
             5.828472137451172
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 2.2196056564155278,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.038620803505182266,
+            0.18554650247097015,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.038620803505182266,
+            0.18554650247097015,
+            5.81899356842041
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 2.222492029756384,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.03910145163536072,
+            0.18520493805408478,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.03910145163536072,
+            0.18520493805408478,
+            5.809891223907471
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 2.2291117895635377,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.03957739844918251,
+            0.18488465249538422,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.03957739844918251,
+            0.18488465249538422,
+            5.8010053634643555
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 2.229738328507498,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.04004376754164696,
+            0.1846073418855667,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.04004376754164696,
+            0.1846073418855667,
+            5.792646408081055
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 2.226608424899808,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1640,17 +2970,37 @@
             -0.04049459472298622,
             0.18446502089500427,
             5.785925388336182
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-bunny_lowpoly-cold.mp4",
-      "poster": "assets/images/fixed-pair-bunny_lowpoly-cold-poster.jpg",
-      "duration": 10.05,
-      "sha256": "1c3d87a1f4e0c1a139d0ac96335af57a6f20670065c1088b5f7ee4fa01a15e5b",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-bunny_lowpoly-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-bunny_lowpoly-cold-every-step-30fps-poster.jpg",
+      "duration": 3.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "51713c2e5c3209e8a8df5ac19b51df61ea58121c37137c69450f81204125c470",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "bunny_lowpoly",
@@ -1666,12 +3016,12 @@
       "initial_length": 4.167705742660998,
       "final_length": 3.1548734203495883,
       "length_change": -1.01283232231141,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 4.167705742660998,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1686,12 +3036,97 @@
             0.33916300535202026,
             0.46418672800064087,
             3.1502349376678467
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 4.0546537607674145,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3386630117893219,
+            0.4636867344379425,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3386630117893219,
+            0.4636867344379425,
+            3.1607069969177246
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 3.994376889013883,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33816319704055786,
+            0.463187575340271,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33816319704055786,
+            0.463187575340271,
+            3.171124219894409
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 3.865142472527406,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33766302466392517,
+            0.46268919110298157,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33766302466392517,
+            0.46268919110298157,
+            3.181469202041626
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 3.782351556437191,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3371639549732208,
+            0.462192177772522,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3371639549732208,
+            0.462192177772522,
+            3.191598415374756
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 3.706280714571887,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1706,12 +3141,97 @@
             0.3366616368293762,
             0.46169835329055786,
             3.201474905014038
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 3.6391162046461147,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3361562192440033,
+            0.4612082242965698,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3361562192440033,
+            0.4612082242965698,
+            3.2110655307769775
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 3.5814632588943827,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3356482982635498,
+            0.4607209861278534,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3356482982635498,
+            0.4607209861278534,
+            3.220372438430786
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 3.53195812725141,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3351399004459381,
+            0.46023714542388916,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3351399004459381,
+            0.46023714542388916,
+            3.22939395904541
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 3.483847235905264,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33463460206985474,
+            0.4597589373588562,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33463460206985474,
+            0.4597589373588562,
+            3.238147497177124
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 3.448129425865802,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1726,12 +3246,97 @@
             0.3341338038444519,
             0.45928826928138733,
             3.246595621109009
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 3.418195949446663,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33363762497901917,
+            0.45882338285446167,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33363762497901917,
+            0.45882338285446167,
+            3.254793405532837
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 3.3846761917789645,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3331450819969177,
+            0.4583665132522583,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3331450819969177,
+            0.4583665132522583,
+            3.262632369995117
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 3.3537373641360557,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33265411853790283,
+            0.4579174518585205,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33265411853790283,
+            0.4579174518585205,
+            3.2700581550598145
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 3.318815854929158,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3321661949157715,
+            0.4574755132198334,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3321661949157715,
+            0.4574755132198334,
+            3.2770371437072754
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 3.2884492347985868,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1746,12 +3351,97 @@
             0.33168116211891174,
             0.4570421576499939,
             3.2835683822631836
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 3.2643768259080472,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3311994969844818,
+            0.4566176235675812,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3311994969844818,
+            0.4566176235675812,
+            3.289658308029175
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 3.2361634969814896,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33072251081466675,
+            0.45620182156562805,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33072251081466675,
+            0.45620182156562805,
+            3.2953104972839355
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 3.2080665557011794,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3302519917488098,
+            0.455793559551239,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3302519917488098,
+            0.455793559551239,
+            3.30057430267334
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 3.181614986094891,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.32978877425193787,
+            0.45539161562919617,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.32978877425193787,
+            0.45539161562919617,
+            3.3054800033569336
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 3.1548734203495883,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             7,
             6
@@ -1766,17 +3456,51 @@
             0.32933151721954346,
             0.4549955725669861,
             3.3100390434265137
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-bunny_lowpoly-warm.mp4",
-      "poster": "assets/images/fixed-pair-bunny_lowpoly-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "f9ccd86a0d187e219a2c6738ec14af7dc1098739472bca7a98d84585b3d4d93e",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-bunny_lowpoly-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-bunny_lowpoly-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "0f734cce9ec083b2e48f02cf408bed220f2116de112a4199e90627afa94f1b6f",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "big_screwer",
@@ -1792,12 +3516,12 @@
       "initial_length": 2.673485000997667,
       "final_length": 2.2812103880651646,
       "length_change": -0.39227461293250254,
-      "snapshot_count": 3,
+      "snapshot_count": 11,
       "states": [
         {
           "step": 10,
           "length": 2.673485000997667,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1812,12 +3536,97 @@
             0.2893713414669037,
             0.42353734374046326,
             3.622634172439575
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.6237054975398895,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2888713479042053,
+            0.4230373501777649,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2888713479042053,
+            0.4230373501777649,
+            3.633106231689453
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 2.5662604254845953,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.28837066888809204,
+            0.42253831028938293,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.28837066888809204,
+            0.42253831028938293,
+            3.643320083618164
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 2.514502577403803,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2878691554069519,
+            0.42204079031944275,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2878691554069519,
+            0.42204079031944275,
+            3.653174638748169
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 2.460633970916452,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.28736650943756104,
+            0.421545147895813,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.28736650943756104,
+            0.421545147895813,
+            3.662480592727661
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 2.412439811836923,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1832,12 +3641,97 @@
             0.2868630886077881,
             0.4210512936115265,
             3.671278715133667
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 2.377266677101941,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.28635916113853455,
+            0.42055973410606384,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.28635916113853455,
+            0.42055973410606384,
+            3.6795871257781982
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 2.3424355758828983,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2858545780181885,
+            0.42007043957710266,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2858545780181885,
+            0.42007043957710266,
+            3.6873061656951904
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 2.3226065976386265,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.28534969687461853,
+            0.41958391666412354,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.28534969687461853,
+            0.41958391666412354,
+            3.6943912506103516
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 2.3049001223622856,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2848447561264038,
+            0.41910019516944885,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2848447561264038,
+            0.41910019516944885,
+            3.700850486755371
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 2.2812103880651646,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1852,17 +3746,37 @@
             0.2843398451805115,
             0.41861918568611145,
             3.7066423892974854
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-big_screwer-cold.mp4",
-      "poster": "assets/images/fixed-pair-big_screwer-cold-poster.jpg",
-      "duration": 10.05,
-      "sha256": "2f8c9264116df52a0f4696cb0f84cd459bdb2733de21e7d757879e669e7a40a8",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-big_screwer-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-big_screwer-cold-every-step-30fps-poster.jpg",
+      "duration": 3.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "36c0bc4ea34449140b27b8f19ea19687dcaad637bc7f22de549d2b5003962840",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "big_screwer",
@@ -1878,12 +3792,12 @@
       "initial_length": 2.0903889988624536,
       "final_length": 1.7490391844500046,
       "length_change": -0.34134981441244894,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 2.0903889988624536,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1898,12 +3812,97 @@
             0.08301157504320145,
             0.3867660462856293,
             5.494559288024902
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 2.054224226826308,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08351157605648041,
+            0.3862660527229309,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08351157605648041,
+            0.3862660527229309,
+            5.505031108856201
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 2.0420737190680414,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.0840122401714325,
+            0.38610216975212097,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.0840122401714325,
+            0.38610216975212097,
+            5.515470504760742
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 2.0189074919104533,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08451391756534576,
+            0.3861253261566162,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08451391756534576,
+            0.3861253261566162,
+            5.525882720947266
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 1.9919481219353958,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08500467240810394,
+            0.3858807384967804,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08500467240810394,
+            0.3858807384967804,
+            5.536243438720703
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 1.98638059955322,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1918,12 +3917,97 @@
             0.08549000322818756,
             0.3855409622192383,
             5.546584606170654
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 1.961652976165289,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08596742898225784,
+            0.3851487636566162,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08596742898225784,
+            0.3851487636566162,
+            5.556896209716797
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.936085981507043,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.0864250659942627,
+            0.3847229480743408,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.0864250659942627,
+            0.3847229480743408,
+            5.567164897918701
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.9129890291311684,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08682747930288315,
+            0.38427308201789856,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08682747930288315,
+            0.38427308201789856,
+            5.577328205108643
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.8882492079268656,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08715113997459412,
+            0.38380521535873413,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08715113997459412,
+            0.38380521535873413,
+            5.587381362915039
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.8701003462346582,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1938,12 +4022,97 @@
             0.0873919129371643,
             0.3833228647708893,
             5.59736442565918
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.8454507765335058,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08749677985906601,
+            0.3828333914279938,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08749677985906601,
+            0.3828333914279938,
+            5.607128143310547
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.8269952111957675,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08747786283493042,
+            0.38235247135162354,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08747786283493042,
+            0.38235247135162354,
+            5.616652488708496
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.8108392412411138,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08735688030719757,
+            0.38189518451690674,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08735688030719757,
+            0.38189518451690674,
+            5.62587833404541
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.8012364236807739,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08713670819997787,
+            0.38156598806381226,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08713670819997787,
+            0.38156598806381226,
+            5.634420394897461
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.7931244325570863,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1958,12 +4127,97 @@
             0.08684753626585007,
             0.38139116764068604,
             5.642218112945557
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.7848718518693412,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08649715036153793,
+            0.3813434839248657,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08649715036153793,
+            0.3813434839248657,
+            5.649202823638916
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.7766031471673318,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08610694855451584,
+            0.38139769434928894,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08610694855451584,
+            0.38139769434928894,
+            5.6555304527282715
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.7674372247047883,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08568699657917023,
+            0.38153526186943054,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08568699657917023,
+            0.38153526186943054,
+            5.661276340484619
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.7595988079149327,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08524183928966522,
+            0.3817408084869385,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08524183928966522,
+            0.3817408084869385,
+            5.66645622253418
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.7490391844500046,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             4,
             1
@@ -1978,17 +4232,51 @@
             0.08476992696523666,
             0.3820148706436157,
             5.67086124420166
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-big_screwer-warm.mp4",
-      "poster": "assets/images/fixed-pair-big_screwer-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "cecf73253398fb39b5aaedcd20be84e5d421ce1d71784a161209d7011366b9be",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-big_screwer-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-big_screwer-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "e17e24b45a338c91b01e7c6785bf6db0c5d11b548ac754bebaa7eefbdf96a4ad",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "cracker_box",
@@ -2004,12 +4292,12 @@
       "initial_length": 2.357378941878535,
       "final_length": 1.8775620148695917,
       "length_change": -0.4798169270089432,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 2.357378941878535,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             11
@@ -2024,12 +4312,97 @@
             0.3572070002555847,
             0.23767855763435364,
             3.52876615524292
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.302074072949499,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35670700669288635,
+            0.23717856407165527,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35670700669288635,
+            0.23717856407165527,
+            3.518294095993042
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 2.253445142040154,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3562081754207611,
+            0.23671063780784607,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3562081754207611,
+            0.23671063780784607,
+            3.5078253746032715
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 2.2127460649277277,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35571980476379395,
+            0.2363520860671997,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35571980476379395,
+            0.2363520860671997,
+            3.497669219970703
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 2.1632889648806417,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35523372888565063,
+            0.23594169318675995,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35523372888565063,
+            0.23594169318675995,
+            3.4894142150878906
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 2.125169393275587,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             11
@@ -2044,12 +4417,97 @@
             0.35475048422813416,
             0.23550045490264893,
             3.482830047607422
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.0971908155977768,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35427194833755493,
+            0.23504957556724548,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35427194833755493,
+            0.23504957556724548,
+            3.477231979370117
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 2.0636432650947194,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35379868745803833,
+            0.23460924625396729,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35379868745803833,
+            0.23460924625396729,
+            3.4720237255096436
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 2.0296505410380568,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3533293306827545,
+            0.23417510092258453,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3533293306827545,
+            0.23417510092258453,
+            3.4672017097473145
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.9969441641853083,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3528643250465393,
+            0.23375096917152405,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3528643250465393,
+            0.23375096917152405,
+            3.462800979614258
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.9770558589619156,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             11
@@ -2064,12 +4522,97 @@
             0.3524011969566345,
             0.2333327680826187,
             3.4586310386657715
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.959649332755991,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3519381880760193,
+            0.2329104095697403,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3519381880760193,
+            0.2329104095697403,
+            3.454845905303955
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.9384424474741575,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35147666931152344,
+            0.23248043656349182,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35147666931152344,
+            0.23248043656349182,
+            3.451732635498047
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.9179888926829702,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3510170578956604,
+            0.2320404052734375,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3510170578956604,
+            0.2320404052734375,
+            3.449392795562744
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.8964933229403411,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35055801272392273,
+            0.2315940260887146,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35055801272392273,
+            0.2315940260887146,
+            3.4477858543395996
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.8775620148695917,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             11
@@ -2084,17 +4627,44 @@
             0.35010066628456116,
             0.23114198446273804,
             3.4469499588012695
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-cracker_box-cold.mp4",
-      "poster": "assets/images/fixed-pair-cracker_box-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "5bf99d70c3fa00254070f7f629f5eeaf9292a8e3f4fb909f3a495a581c676506",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-cracker_box-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-cracker_box-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "9333e40e1bf540396323368f0f53a89881bac25aa7bb6879689d81dedb19c3f2",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "cracker_box",
@@ -2110,12 +4680,12 @@
       "initial_length": 6.079141068513895,
       "final_length": 5.132115181029586,
       "length_change": -0.9470258874843092,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 6.079141068513895,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             10,
             11
@@ -2130,12 +4700,97 @@
             0.02238577790558338,
             0.3999311923980713,
             4.69419527053833
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 5.999610788114255,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.022885777056217194,
+            0.3994311988353729,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.022885777056217194,
+            0.3994311988353729,
+            4.683723449707031
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 5.908644515391786,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.02338644675910473,
+            0.39893093705177307,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.02338644675910473,
+            0.39893093705177307,
+            4.673301696777344
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 5.857007397722507,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.023887893185019493,
+            0.3984310030937195,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.023887893185019493,
+            0.3984310030937195,
+            4.662878036499023
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 5.799808099261806,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.024390552192926407,
+            0.397931307554245,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.024390552192926407,
+            0.397931307554245,
+            4.652463436126709
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 5.749147831855853,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             10,
             11
@@ -2150,12 +4805,97 @@
             0.024894878268241882,
             0.3974316120147705,
             4.642069339752197
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 5.697260070752646,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.025401312857866287,
+            0.39693140983581543,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.025401312857866287,
+            0.39693140983581543,
+            4.631715297698975
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 5.638984232732865,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.025910088792443275,
+            0.39643093943595886,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.025910088792443275,
+            0.39643093943595886,
+            4.621400833129883
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 5.582046116985772,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.026420772075653076,
+            0.39593032002449036,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.026420772075653076,
+            0.39593032002449036,
+            4.611118316650391
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 5.527884936573562,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.026933781802654266,
+            0.3954317271709442,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.026933781802654266,
+            0.3954317271709442,
+            4.600785732269287
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 5.477499566431078,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             10,
             11
@@ -2170,12 +4910,97 @@
             0.02744903601706028,
             0.3949347734451294,
             4.590419769287109
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 5.430799523714483,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.027966998517513275,
+            0.39444154500961304,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.027966998517513275,
+            0.39444154500961304,
+            4.580048084259033
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 5.392400333240357,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.028488053008913994,
+            0.3939550220966339,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.028488053008913994,
+            0.3939550220966339,
+            4.56965446472168
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 5.343116376417871,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.029010586440563202,
+            0.39347004890441895,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.029010586440563202,
+            0.39347004890441895,
+            4.559382438659668
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 5.306944962833557,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.029324235394597054,
+            0.3930688798427582,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.029324235394597054,
+            0.3930688798427582,
+            4.558417320251465
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 5.276210159933053,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             10,
             11
@@ -2190,12 +5015,97 @@
             0.029697071760892868,
             0.3926367163658142,
             4.56089448928833
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 5.246821701810484,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.03004342131316662,
+            0.39222750067710876,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.03004342131316662,
+            0.39222750067710876,
+            4.5626397132873535
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 5.2226525995803454,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.03036602959036827,
+            0.3918386697769165,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.03036602959036827,
+            0.3918386697769165,
+            4.563714027404785
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 5.194979760350731,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.030667554587125778,
+            0.39146843552589417,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.030667554587125778,
+            0.39146843552589417,
+            4.564192295074463
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 5.160586508147527,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.03094993345439434,
+            0.391116201877594,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.03094993345439434,
+            0.391116201877594,
+            4.564065933227539
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 5.132115181029586,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             10,
             11
@@ -2210,17 +5120,51 @@
             0.031215112656354904,
             0.39078086614608765,
             4.563370227813721
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-cracker_box-warm.mp4",
-      "poster": "assets/images/fixed-pair-cracker_box-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "9c1b77e00044a7cad95179653c8923cd3d9c23b6a70c7d4bf1287e7faebedd74",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-cracker_box-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-cracker_box-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "5bd97ba8a8bc25a61267d28aae4ef336094f066f9ef66901573cad529159f624",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "pitcher",
@@ -2236,12 +5180,12 @@
       "initial_length": 2.0226622051044205,
       "final_length": 1.743109486004132,
       "length_change": -0.27955271910028845,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 2.0226622051044205,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             13
@@ -2256,12 +5200,97 @@
             -0.02359001338481903,
             0.3902374804019928,
             3.8890931606292725
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.0077774801924146,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.02309001423418522,
+            0.39073747396469116,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02309001423418522,
+            0.39073747396469116,
+            3.8995652198791504
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 1.9595525301131969,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.02259768545627594,
+            0.3912317156791687,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02259768545627594,
+            0.3912317156791687,
+            3.9090054035186768
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 1.9214541111023153,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.022103499621152878,
+            0.3917236924171448,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.022103499621152878,
+            0.3917236924171448,
+            3.9181017875671387
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 1.8989016675425239,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.021607769653201103,
+            0.39221349358558655,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.021607769653201103,
+            0.39221349358558655,
+            3.9272897243499756
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.8749235833329148,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             13
@@ -2276,12 +5305,97 @@
             -0.021111896261572838,
             0.39270028471946716,
             3.93619704246521
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.8473623880722951,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.02061600051820278,
+            0.39318662881851196,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02061600051820278,
+            0.39318662881851196,
+            3.9450783729553223
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.825526207277364,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.020121144130825996,
+            0.39367178082466125,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.020121144130825996,
+            0.39367178082466125,
+            3.9537713527679443
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.813036114885002,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.019628068432211876,
+            0.3941546380519867,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.019628068432211876,
+            0.3941546380519867,
+            3.962174654006958
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.8011022820620561,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.01913958415389061,
+            0.39463451504707336,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.01913958415389061,
+            0.39463451504707336,
+            3.969703197479248
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.7833659385188978,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             13
@@ -2296,12 +5410,97 @@
             -0.018655959516763687,
             0.3951108753681183,
             3.9762346744537354
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.7720959275688841,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.018175967037677765,
+            0.3955841362476349,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.018175967037677765,
+            0.3955841362476349,
+            3.9821088314056396
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.7644648612187819,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.017699075862765312,
+            0.39605504274368286,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.017699075862765312,
+            0.39605504274368286,
+            3.9873569011688232
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.7587829956626946,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.017224805429577827,
+            0.396525502204895,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.017224805429577827,
+            0.396525502204895,
+            3.991961717605591
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.750038752414291,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.016751809045672417,
+            0.3969980776309967,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.016751809045672417,
+            0.3969980776309967,
+            3.996164083480835
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.743109486004132,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             13
@@ -2316,17 +5515,44 @@
             -0.016283690929412842,
             0.39747193455696106,
             3.99932861328125
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-pitcher-cold.mp4",
-      "poster": "assets/images/fixed-pair-pitcher-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "e32fff74281183df4bd264e7424a26a9a6a611deb3eccbf178a67e558f542a8c",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-pitcher-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-pitcher-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "8e91a42a925ef3ee8eae73faf6c8e28ae2b9a6a91b5bce290a24e13e36a0c1a5",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "pitcher",
@@ -2342,12 +5568,12 @@
       "initial_length": 2.3457607709325967,
       "final_length": 1.924053350907966,
       "length_change": -0.4217074200246307,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 2.3457607709325967,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             6,
             13
@@ -2362,12 +5588,97 @@
             -0.030565649271011353,
             0.31760263442993164,
             2.452115058898926
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 2.315260151963585,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.03006565012037754,
+            0.3171026408672333,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.03006565012037754,
+            0.3171026408672333,
+            2.4625871181488037
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 2.267937889931219,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.029566291719675064,
+            0.31660783290863037,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.029566291719675064,
+            0.31660783290863037,
+            2.472956657409668
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 2.2226624150556806,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.029069166630506516,
+            0.31613263487815857,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.029069166630506516,
+            0.31613263487815857,
+            2.481873035430908
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 2.207033668389691,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.028573937714099884,
+            0.31567731499671936,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.028573937714099884,
+            0.31567731499671936,
+            2.4895637035369873
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 2.161825979341599,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             6,
             13
@@ -2382,12 +5693,97 @@
             -0.028081662952899933,
             0.3152405917644501,
             2.495910167694092
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.1595907579929174,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.027590379118919373,
+            0.3148120045661926,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.027590379118919373,
+            0.3148120045661926,
+            2.5015811920166016
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 2.1156161608775235,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.027100712060928345,
+            0.3143928349018097,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.027100712060928345,
+            0.3143928349018097,
+            2.506315231323242
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 2.08102182100476,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.026613542810082436,
+            0.31399086117744446,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.026613542810082436,
+            0.31399086117744446,
+            2.5093250274658203
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 2.062233549386844,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.026128014549613,
+            0.31360289454460144,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.026128014549613,
+            0.31360289454460144,
+            2.5107760429382324
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 2.0428079387962574,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             6,
             13
@@ -2402,12 +5798,97 @@
             -0.02564486488699913,
             0.3132322430610657,
             2.5105643272399902
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.0245741413566796,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.025160862132906914,
+            0.31286513805389404,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.025160862132906914,
+            0.31286513805389404,
+            2.5101020336151123
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 2.0102253154673577,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.02467629685997963,
+            0.3125007748603821,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02467629685997963,
+            0.3125007748603821,
+            2.509181261062622
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.9971988363923772,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.02419181726872921,
+            0.31214115023612976,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02419181726872921,
+            0.31214115023612976,
+            2.5075087547302246
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.9853869561828499,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.023707525804638863,
+            0.3117848336696625,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.023707525804638863,
+            0.3117848336696625,
+            2.5050971508026123
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.9720220576013787,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             6,
             13
@@ -2422,12 +5903,97 @@
             -0.02322297729551792,
             0.31143274903297424,
             2.5017406940460205
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.9593667995061836,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.022738907486200333,
+            0.3110854923725128,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.022738907486200333,
+            0.3110854923725128,
+            2.497352123260498
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.946219589472889,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.022256096825003624,
+            0.31074032187461853,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.022256096825003624,
+            0.31074032187461853,
+            2.4918696880340576
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.9357483840804848,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.021774981170892715,
+            0.31039392948150635,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.021774981170892715,
+            0.31039392948150635,
+            2.4854135513305664
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.9286695593567869,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.021295523270964622,
+            0.310045450925827,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.021295523270964622,
+            0.310045450925827,
+            2.4781649112701416
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.924053350907966,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             6,
             13
@@ -2442,17 +6008,51 @@
             -0.020817672833800316,
             0.3096941113471985,
             2.470242738723755
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-pitcher-warm.mp4",
-      "poster": "assets/images/fixed-pair-pitcher-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "9dbf3f77bc7a0c7ba8ca1894ca86084a98722038bc0b368f994843b54adb243d",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-pitcher-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-pitcher-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "809611403c7e846a7e1204819191e0d9421189161c6fbd61cf660bfdc7f6987b",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "chips_can",
@@ -2468,12 +6068,12 @@
       "initial_length": 2.284306093846981,
       "final_length": 1.6700802919813558,
       "length_change": -0.614225801865625,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 2.284306093846981,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             1,
             18
@@ -2488,12 +6088,97 @@
             0.24074774980545044,
             0.4099903106689453,
             1.5653982162475586
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.242299207609047,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.24024775624275208,
+            0.40949031710624695,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.24024775624275208,
+            0.40949031710624695,
+            1.5549262762069702
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 2.2622639223435383,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23974943161010742,
+            0.40899938344955444,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23974943161010742,
+            0.40899938344955444,
+            1.5444750785827637
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 2.163796214611832,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23925265669822693,
+            0.4085070788860321,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23925265669822693,
+            0.4085070788860321,
+            1.5340240001678467
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 2.0896758595953653,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23877942562103271,
+            0.4081060588359833,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23877942562103271,
+            0.4081060588359833,
+            1.5240983963012695
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 2.0552883229230328,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             1,
             18
@@ -2508,12 +6193,97 @@
             0.23834499716758728,
             0.40786680579185486,
             1.5153117179870605
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.005906401133793,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.2379491627216339,
+            0.4077543318271637,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.2379491627216339,
+            0.4077543318271637,
+            1.5076687335968018
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.964917051789689,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23763447999954224,
+            0.4078356921672821,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23763447999954224,
+            0.4078356921672821,
+            1.5024995803833008
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.925657051917276,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23739592730998993,
+            0.40803709626197815,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23739592730998993,
+            0.40803709626197815,
+            1.499531626701355
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.872093008885093,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23722882568836212,
+            0.4083210527896881,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23722882568836212,
+            0.4083210527896881,
+            1.4983855485916138
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.8318959938897634,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             1,
             18
@@ -2528,12 +6298,97 @@
             0.2370932698249817,
             0.4086548089981079,
             1.4980332851409912
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.795535577552313,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23697909712791443,
+            0.4090239107608795,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23697909712791443,
+            0.4090239107608795,
+            1.49826979637146
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.765560158670721,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23687176406383514,
+            0.40941038727760315,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23687176406383514,
+            0.40941038727760315,
+            1.4987634420394897
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.731253895371162,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23676764965057373,
+            0.40980830788612366,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23676764965057373,
+            0.40980830788612366,
+            1.499350666999817
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.697184935312436,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23665615916252136,
+            0.4102144241333008,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23665615916252136,
+            0.4102144241333008,
+            1.4999580383300781
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.6700802919813558,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             1,
             18
@@ -2548,17 +6403,44 @@
             0.23653125762939453,
             0.4106302559375763,
             1.5002962350845337
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-chips_can-cold.mp4",
-      "poster": "assets/images/fixed-pair-chips_can-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "7aebbb2c6c8d7ee39d3caf80d85d610ae0388fe3250288c556ca75cdfad7f45f",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-chips_can-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-chips_can-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "c296e970880b3d484328f1cfae988ae37e9d3589223f31df5a3f6ec3d09abbb9",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "chips_can",
@@ -2574,12 +6456,12 @@
       "initial_length": 4.679976854225056,
       "final_length": 4.071769183544465,
       "length_change": -0.6082076706805912,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 4.679976854225056,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             5
@@ -2594,12 +6476,97 @@
             0.13343816995620728,
             0.4488583505153656,
             3.057769536972046
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 4.6401159515700625,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.1329381763935089,
+            0.44835835695266724,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.1329381763935089,
+            0.44835835695266724,
+            3.047297477722168
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 4.632427531243843,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.13247424364089966,
+            0.4478684961795807,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.13247424364089966,
+            0.4478684961795807,
+            3.0402345657348633
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 4.595476989235643,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.13206444680690765,
+            0.4473933279514313,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.13206444680690765,
+            0.4473933279514313,
+            3.03959321975708
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 4.541569869944249,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.1316273808479309,
+            0.446907639503479,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.1316273808479309,
+            0.446907639503479,
+            3.0404956340789795
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 4.512097420356876,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             5
@@ -2614,12 +6581,97 @@
             0.13117700815200806,
             0.44641488790512085,
             3.043398380279541
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 4.475369716188889,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.13073934614658356,
+            0.4459172487258911,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.13073934614658356,
+            0.4459172487258911,
+            3.048426866531372
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 4.427711849980615,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.130308598279953,
+            0.4454173743724823,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.130308598279953,
+            0.4454173743724823,
+            3.0545172691345215
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 4.389160974045916,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12986180186271667,
+            0.44492101669311523,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12986180186271667,
+            0.44492101669311523,
+            3.060772180557251
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 4.363643991622345,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12939752638339996,
+            0.4444308280944824,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12939752638339996,
+            0.4444308280944824,
+            3.066645622253418
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 4.332532930043809,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             5
@@ -2634,12 +6686,97 @@
             0.12891846895217896,
             0.4439532458782196,
             3.0704212188720703
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 4.303290856377504,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.1284618377685547,
+            0.44348451495170593,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.1284618377685547,
+            0.44348451495170593,
+            3.075270175933838
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 4.279245024655361,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12798696756362915,
+            0.44303441047668457,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12798696756362915,
+            0.44303441047668457,
+            3.0790014266967773
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 4.253742660227516,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12749847769737244,
+            0.4425911605358124,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12749847769737244,
+            0.4425911605358124,
+            3.081624746322632
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 4.225562407819963,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12718641757965088,
+            0.4421275854110718,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12718641757965088,
+            0.4421275854110718,
+            3.087080478668213
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 4.198909499830907,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             5
@@ -2654,12 +6791,97 @@
             0.12687349319458008,
             0.44165822863578796,
             3.0930023193359375
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 4.171908165811729,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12652520835399628,
+            0.44119730591773987,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12652520835399628,
+            0.44119730591773987,
+            3.0979795455932617
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 4.147244130473361,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12614178657531738,
+            0.44075366854667664,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12614178657531738,
+            0.44075366854667664,
+            3.101504325866699
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 4.120994600306105,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12576454877853394,
+            0.44035056233406067,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12576454877853394,
+            0.44035056233406067,
+            3.1048130989074707
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 4.0969262611128,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12538285553455353,
+            0.4399905800819397,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12538285553455353,
+            0.4399905800819397,
+            3.107603073120117
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 4.071769183544465,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             0,
             5
@@ -2674,17 +6896,51 @@
             0.12499724328517914,
             0.4396701753139496,
             3.1098759174346924
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-chips_can-warm.mp4",
-      "poster": "assets/images/fixed-pair-chips_can-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "0f51d3cc180d8915397e8ceffdbe20ae0b9ab06e58438a140b719361b1e1cf5e",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-chips_can-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-chips_can-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "e694ab30eb12c5e737eef92bf59aeef711cbd798fa09fe94b231175bc280a951",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "power_drill",
@@ -2700,12 +6956,12 @@
       "initial_length": 2.0718965561169553,
       "final_length": 1.8061795242535141,
       "length_change": -0.2657170318634412,
-      "snapshot_count": 4,
+      "snapshot_count": 16,
       "states": [
         {
           "step": 5,
           "length": 2.0718965561169553,
-          "source_phase": "post",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             1
@@ -2720,12 +6976,97 @@
             0.0564984567463398,
             0.24904093146324158,
             2.952279567718506
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.0465959572422587,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.05699845403432846,
+            0.24954092502593994,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.05699845403432846,
+            0.24954092502593994,
+            2.962751626968384
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 2.0743229601058455,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.057381048798561096,
+            0.25003525614738464,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.057381048798561096,
+            0.25003525614738464,
+            2.973198652267456
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 2.019550507342411,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.05778859928250313,
+            0.2505282163619995,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.05778859928250313,
+            0.2505282163619995,
+            2.9835078716278076
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 2.017750173322623,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.0582253560423851,
+            0.2510164976119995,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.0582253560423851,
+            0.2510164976119995,
+            2.9937450885772705
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 1.9972956672575415,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             1
@@ -2740,12 +7081,97 @@
             0.0586814284324646,
             0.2514977753162384,
             3.003851890563965
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 1.9713047934384234,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.05915180966258049,
+            0.2519698441028595,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.05915180966258049,
+            0.2519698441028595,
+            3.014075994491577
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 1.9444805556497915,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.05960682034492493,
+            0.25242912769317627,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.05960682034492493,
+            0.25242912769317627,
+            3.023329019546509
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 1.9326453442457634,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.06004637852311134,
+            0.25287771224975586,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.06004637852311134,
+            0.25287771224975586,
+            3.0319480895996094
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.9202498820058513,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.06043783575296402,
+            0.2533179223537445,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.06043783575296402,
+            0.2533179223537445,
+            3.0405869483947754
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.8947235948674614,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             1
@@ -2760,12 +7186,97 @@
             0.06073898449540138,
             0.2537457048892975,
             3.048276901245117
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.8724462907340698,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.060979582369327545,
+            0.25416871905326843,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.060979582369327545,
+            0.25416871905326843,
+            3.055250883102417
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.8575462612411344,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.06116533651947975,
+            0.2545878291130066,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.06116533651947975,
+            0.2545878291130066,
+            3.061821699142456
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.8456760069847826,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.06129832565784454,
+            0.25500229001045227,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.06129832565784454,
+            0.25500229001045227,
+            3.067897319793701
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.8270129928427956,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.061375249177217484,
+            0.2554108798503876,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.061375249177217484,
+            0.2554108798503876,
+            3.073078155517578
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.8061795242535141,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             1
@@ -2780,17 +7291,44 @@
             0.061422619968652725,
             0.2558158338069916,
             3.077364444732666
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-power_drill-cold.mp4",
-      "poster": "assets/images/fixed-pair-power_drill-cold-poster.jpg",
-      "duration": 10.0,
-      "sha256": "34f43cf0e8f5fe6f5dfd1ed04085eae9d0c9387c5a9bdfe6d79eccb78f758fd2",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-power_drill-cold-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-power_drill-cold-every-step-30fps-poster.jpg",
+      "duration": 4.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "d32e91c68cfe589b4e0fbffdbb52f38f866c9c113bd4580eee9172aa2635e433",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     },
     {
       "object": "power_drill",
@@ -2806,12 +7344,12 @@
       "initial_length": 2.223684812612722,
       "final_length": 1.9007476633064933,
       "length_change": -0.32293714930622874,
-      "snapshot_count": 5,
+      "snapshot_count": 21,
       "states": [
         {
           "step": 0,
           "length": 2.223684812612722,
-          "source_phase": "provided",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             12
@@ -2826,12 +7364,97 @@
             0.23351311683654785,
             0.3452102839946747,
             4.706021308898926
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 1,
+          "length": 2.2495049764473074,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.2330131232738495,
+            0.34571027755737305,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.2330131232738495,
+            0.34571027755737305,
+            4.695549488067627
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 2,
+          "length": 2.3104797687941803,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.2327578365802765,
+            0.346209853887558,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.2327578365802765,
+            0.346209853887558,
+            4.685676574707031
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 3,
+          "length": 2.229205492455404,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23291225731372833,
+            0.34671059250831604,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23291225731372833,
+            0.34671059250831604,
+            4.677347660064697
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 4,
+          "length": 2.2119787891787217,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23309382796287537,
+            0.34720808267593384,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23309382796287537,
+            0.34720808267593384,
+            4.668877601623535
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 5,
           "length": 2.2040394316825207,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             12
@@ -2846,12 +7469,97 @@
             0.23329909145832062,
             0.3477022349834442,
             4.660404682159424
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 6,
+          "length": 2.165975161540744,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23358209431171417,
+            0.34818971157073975,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23358209431171417,
+            0.34818971157073975,
+            4.652717590332031
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 7,
+          "length": 2.1402640131507416,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23392675817012787,
+            0.34866875410079956,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23392675817012787,
+            0.34866875410079956,
+            4.646474838256836
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 8,
+          "length": 2.1331872731754578,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23430657386779785,
+            0.34914112091064453,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23430657386779785,
+            0.34914112091064453,
+            4.641212463378906
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 9,
+          "length": 2.0899019474828693,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.2347050905227661,
+            0.349608451128006,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.2347050905227661,
+            0.349608451128006,
+            4.636541843414307
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 10,
           "length": 2.0579112375641095,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             12
@@ -2866,12 +7574,97 @@
             0.23511478304862976,
             0.35007229447364807,
             4.63250207901001
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 11,
+          "length": 2.034308596115979,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23552319407463074,
+            0.35053619742393494,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23552319407463074,
+            0.35053619742393494,
+            4.628593921661377
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 12,
+          "length": 2.020767147855215,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23593731224536896,
+            0.35100144147872925,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23593731224536896,
+            0.35100144147872925,
+            4.624803066253662
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 13,
+          "length": 2.00003855722857,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23636174201965332,
+            0.351468950510025,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23636174201965332,
+            0.351468950510025,
+            4.621124267578125
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 14,
+          "length": 1.9830917824439886,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23678229749202728,
+            0.3519372045993805,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23678229749202728,
+            0.3519372045993805,
+            4.617354869842529
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 15,
           "length": 1.9706509056128705,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             12
@@ -2886,12 +7679,97 @@
             0.23719264566898346,
             0.35240569710731506,
             4.613283634185791
-          ]
+          ],
+          "full_motion_verified": true
+        },
+        {
+          "step": 16,
+          "length": 1.9567439161516178,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23759208619594574,
+            0.35287395119667053,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23759208619594574,
+            0.35287395119667053,
+            4.608964920043945
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 17,
+          "length": 1.9394132874400265,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.2379954308271408,
+            0.3533444404602051,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.2379954308271408,
+            0.3533444404602051,
+            4.604778289794922
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 18,
+          "length": 1.928964448967508,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.2383856475353241,
+            0.3538155257701874,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.2383856475353241,
+            0.3538155257701874,
+            4.600221633911133
+          ],
+          "full_motion_verified": false
+        },
+        {
+          "step": 19,
+          "length": 1.9168721631451948,
+          "source_phase": "optimizer_replay",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23878119885921478,
+            0.35429057478904724,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23878119885921478,
+            0.35429057478904724,
+            4.5954670906066895
+          ],
+          "full_motion_verified": false
         },
         {
           "step": 20,
           "length": 1.9007476633064933,
-          "source_phase": "pre",
+          "source_phase": "archived_checkpoint",
           "gids": [
             15,
             12
@@ -2906,17 +7784,51 @@
             0.23912547528743744,
             0.35476747155189514,
             4.58964729309082
-          ]
+          ],
+          "full_motion_verified": true
         }
       ],
       "candidate_switches": 0,
       "grasp_switches": 0,
       "accepted_replans_inside_interval": 0,
-      "video": "assets/videos/fixed-pair-power_drill-warm.mp4",
-      "poster": "assets/images/fixed-pair-power_drill-warm-poster.jpg",
-      "duration": 10.0,
-      "sha256": "75f65407c74aabe435a510b417514b38f66143bbf1a4033e371de2fdc1775d4e",
-      "sourceAudit": true
+      "video": "assets/videos/fixed-pair-power_drill-warm-every-step-30fps.mp4",
+      "poster": "assets/images/fixed-pair-power_drill-warm-every-step-30fps-poster.jpg",
+      "duration": 5.0,
+      "fps": 30,
+      "updateIntervalSeconds": 0.2,
+      "sha256": "be3e95e7b4886f404b4959806405d10b18d2e42575216adac14b2f59dfc984ba",
+      "sourceAudit": true,
+      "intermediateStateSource": "frozen_optimizer_replay",
+      "checkpointReplayAudit": [
+        {
+          "step": 5,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 10,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 15,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        },
+        {
+          "step": 20,
+          "max_joint_error_rad": 0.0,
+          "max_tcp_error_m": 0.0,
+          "length_error_m": 0.0,
+          "planar_error": 0.0
+        }
+      ]
     }
   ]
 }
