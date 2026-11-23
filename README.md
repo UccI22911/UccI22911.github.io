@@ -8,7 +8,9 @@ A buildless GitHub Pages site for the regrasp-planning paper. Open `index.html` 
 - Eight one-step pose-optimization videos, one per object.
 - Sixteen trajectory videos, with Cold and Warm starts for each object.
 - Analytical-reference and final-distribution plots for ordinary, truncated and balanced generating objectives.
-- Linked Cold/Warm playback, verified TCP-length traces, full-size figures and English scene-description tracks.
+- All eight one-step and sixteen trajectory videos directly visible in responsive grids, with no object or objective tabs.
+- Independent linked Cold/Warm playback, verified TCP-length traces and full-size result figures for every object.
+- Native MathML equations for actual shared grasps, finite-pool mean-normalized pair scores, stable-mode pose parameters, ordinary/balanced/truncated objectives and trajectory optimization.
 
 ## Scientific scope
 
@@ -22,10 +24,10 @@ The examples are separate from query-level benchmark statistics. The manuscript'
 
 Copy `index.html`, `styles.css`, `app.js`, `assets/` and `.nojekyll` to the root of `UccI22911/UccI22911.github.io`. Keep `video_1.mp4` in place. The provided ready-to-upload ZIP contains the full static site, including the unchanged original recording.
 
-GitHub Pages should serve the root of the repository's `main` branch. No Node packages, external fonts, analytics, accounts or third-party runtime scripts are required.
+GitHub Pages should serve the root of the repository's `main` branch. No Node packages, external fonts, analytics, accounts or third-party runtime scripts are required. Formulas render with native browser MathML.
 
 ## Local build records
 
-Local-only rendering scripts are in `tools/`, with source hashes, replay audits and validation reports in `.build/`. These directories are excluded from publication. The public `assets/data/examples.json` contains the displayed example metadata without private filesystem paths.
+Local-only rendering scripts are in `tools/`, with source hashes, replay audits and validation reports in `.build/`. These directories are excluded from publication. The tiled-page builder is `tools/build_tiled_page.py`. The public `assets/data/examples.json` contains the displayed example metadata without private filesystem paths.
 
-Validation includes all 25 MP4 decodes, H.264/yuv420p encoding, fast-start MP4s, caption tracks, local links, unchanged original video hash, archived trajectory anchors/lengths, and browser checks for object switching, figures, synchronized playback and responsive widths.
+Validation includes all 25 MP4 decodes, H.264/yuv420p encoding, fast-start MP4s, caption tracks, local links, unchanged original video hash, archived trajectory anchors/lengths, and browser checks for the fully expanded grids, formula rendering, figure zoom, independent synchronized pairs and responsive widths.
