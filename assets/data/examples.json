@@ -1138,6 +1138,1785 @@
   "notes": {
     "oneStep": "Independent illustrative B200/K20 runs using the frozen 20-grasp models and objectives. First registered one-step query per object, except Mug: first subsequent query passing endpoint environment and grasp checks with no direct shared grasp, selected before optimization. Manuscript Fig. 7 uses B200/K10, and the quantitative benchmark uses B1000/K10.",
     "trajectory": "Read-only replay of audited formal Jseq paths. First numerically ordered query with a supplied Warm path and final executable paths under both starts. Examples illustrate behavior, not aggregate benchmark performance.",
-    "timing": "Playback speeds are adjusted for viewing and are not measured planning or execution latency."
-  }
+    "timing": "Playback speeds are adjusted for viewing and are not measured planning or execution latency.",
+    "fixedPair": "Actual archived optimization checkpoints with the same candidate, path initialization and grasp pair throughout each displayed interval. Cold starts at a recorded initialized path. Warm follows its supplied candidate. Clips end before the next accepted replan and show no interpolated joint/pose states. Intervals are selected by longest uninterrupted verified duration, then registration/candidate order, without selecting by length improvement. These are mechanism examples, not a paired sample or an isolated J-gradient effect."
+  },
+  "fixedPair": [
+    {
+      "object": "bottle",
+      "query": 170,
+      "condition": "Cold",
+      "candidate": 58,
+      "gids": [
+        16,
+        17
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 2.0086206466852854,
+      "final_length": 1.7282416753959349,
+      "length_change": -0.2803789712893505,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 2.0086206466852854,
+          "source_phase": "post",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23507913947105408,
+            0.3823065757751465,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23507913947105408,
+            0.3823065757751465,
+            5.879086017608643
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.881603621199585,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.23258541524410248,
+            0.3798084259033203,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.23258541524410248,
+            0.3798084259033203,
+            5.82944393157959
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.791335545403714,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.2301311194896698,
+            0.3773660361766815,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.2301311194896698,
+            0.3773660361766815,
+            5.793076038360596
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.7282416753959349,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            17
+          ],
+          "mid_pos": [
+            0.22765277326107025,
+            0.37488803267478943,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.22765277326107025,
+            0.37488803267478943,
+            5.767995834350586
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-bottle-cold.mp4",
+      "poster": "assets/images/fixed-pair-bottle-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "164015fdc73b10823390e8dd2a4daf21bcc15a8e82333b1e45005425102a4f3d",
+      "sourceAudit": true
+    },
+    {
+      "object": "bottle",
+      "query": 170,
+      "condition": "Warm",
+      "candidate": 10,
+      "gids": [
+        16,
+        1
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 1.8973074498407025,
+      "final_length": 1.6517720109217355,
+      "length_change": -0.245535438918967,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 1.8973074498407025,
+          "source_phase": "provided",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.19047586619853973,
+            0.43270164728164673,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.19047586619853973,
+            0.43270164728164673,
+            1.6486774682998657
+          ]
+        },
+        {
+          "step": 5,
+          "length": 1.8603655322577692,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18858203291893005,
+            0.4302177429199219,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18858203291893005,
+            0.4302177429199219,
+            1.669564962387085
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.7664951974601868,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18626615405082703,
+            0.4276749789714813,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18626615405082703,
+            0.4276749789714813,
+            1.7024387121200562
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.7110440936601325,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.18369530141353607,
+            0.42503583431243896,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.18369530141353607,
+            0.42503583431243896,
+            1.712897777557373
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.6517720109217355,
+          "source_phase": "pre",
+          "gids": [
+            16,
+            1
+          ],
+          "mid_pos": [
+            0.1809932291507721,
+            0.4223007559776306,
+            0.0
+          ],
+          "stable": 4,
+          "planar": [
+            0.1809932291507721,
+            0.4223007559776306,
+            1.7028543949127197
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-bottle-warm.mp4",
+      "poster": "assets/images/fixed-pair-bottle-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "28a75f8d1fb9e07d00e9f8c55f1b1730b8ca95001ddd930978264ee99be68ad5",
+      "sourceAudit": true
+    },
+    {
+      "object": "mug",
+      "query": 516,
+      "condition": "Cold",
+      "candidate": 0,
+      "gids": [
+        7,
+        17
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 1.5775676579980602,
+      "final_length": 1.3641441908157967,
+      "length_change": -0.21342346718226346,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 1.5775676579980602,
+          "source_phase": "post",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2553081810474396,
+            0.31862714886665344,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2553081810474396,
+            0.31862714886665344,
+            0.43177688121795654
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.4857455499192167,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.25280699133872986,
+            0.3161547780036926,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.25280699133872986,
+            0.3161547780036926,
+            0.4826892614364624
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.402146122591715,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.2505026161670685,
+            0.31400495767593384,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.2505026161670685,
+            0.31400495767593384,
+            0.5289319157600403
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.3641441908157967,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.24868786334991455,
+            0.3127540946006775,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.24868786334991455,
+            0.3127540946006775,
+            0.5618600845336914
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-mug-cold.mp4",
+      "poster": "assets/images/fixed-pair-mug-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "26fb7880d9f43337e44029b1ad02982090ae1e62c0974664492517decab21f2c",
+      "sourceAudit": true
+    },
+    {
+      "object": "mug",
+      "query": 516,
+      "condition": "Warm",
+      "candidate": 0,
+      "gids": [
+        7,
+        17
+      ],
+      "start": 0,
+      "end": 10,
+      "initial_length": 1.6552091415680723,
+      "final_length": 1.4930990716801935,
+      "length_change": -0.1621100698878788,
+      "snapshot_count": 3,
+      "states": [
+        {
+          "step": 0,
+          "length": 1.6552091415680723,
+          "source_phase": "provided",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.1731451451778412,
+            0.2869889736175537,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.1731451451778412,
+            0.2869889736175537,
+            0.2609182596206665
+          ]
+        },
+        {
+          "step": 5,
+          "length": 1.5601300830903606,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17554691433906555,
+            0.28532013297080994,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17554691433906555,
+            0.28532013297080994,
+            0.30748555064201355
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.4930990716801935,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            17
+          ],
+          "mid_pos": [
+            0.17788031697273254,
+            0.28652873635292053,
+            0.003000000026077032
+          ],
+          "stable": 1,
+          "planar": [
+            0.17788031697273254,
+            0.28652873635292053,
+            0.3277107775211334
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-mug-warm.mp4",
+      "poster": "assets/images/fixed-pair-mug-warm-poster.jpg",
+      "duration": 10.05,
+      "sha256": "a86529f899668a607b36a55ce94b23fc9e18b3edac48e84b345e8021ddafaa3e",
+      "sourceAudit": true
+    },
+    {
+      "object": "bunny_lowpoly",
+      "query": 245,
+      "condition": "Cold",
+      "candidate": 32,
+      "gids": [
+        7,
+        6
+      ],
+      "start": 10,
+      "end": 20,
+      "initial_length": 2.271201561660635,
+      "final_length": 2.226608424899808,
+      "length_change": -0.04459313676082699,
+      "snapshot_count": 3,
+      "states": [
+        {
+          "step": 10,
+          "length": 2.271201561660635,
+          "source_phase": "post",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.03564770892262459,
+            0.18835888803005219,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.03564770892262459,
+            0.18835888803005219,
+            5.880096435546875
+          ]
+        },
+        {
+          "step": 15,
+          "length": 2.2329789125917636,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.0381346195936203,
+            0.18592976033687592,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.0381346195936203,
+            0.18592976033687592,
+            5.828472137451172
+          ]
+        },
+        {
+          "step": 20,
+          "length": 2.226608424899808,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            -0.04049459472298622,
+            0.18446502089500427,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            -0.04049459472298622,
+            0.18446502089500427,
+            5.785925388336182
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-bunny_lowpoly-cold.mp4",
+      "poster": "assets/images/fixed-pair-bunny_lowpoly-cold-poster.jpg",
+      "duration": 10.05,
+      "sha256": "1c3d87a1f4e0c1a139d0ac96335af57a6f20670065c1088b5f7ee4fa01a15e5b",
+      "sourceAudit": true
+    },
+    {
+      "object": "bunny_lowpoly",
+      "query": 245,
+      "condition": "Warm",
+      "candidate": 0,
+      "gids": [
+        7,
+        6
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 4.167705742660998,
+      "final_length": 3.1548734203495883,
+      "length_change": -1.01283232231141,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 4.167705742660998,
+          "source_phase": "provided",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33916300535202026,
+            0.46418672800064087,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33916300535202026,
+            0.46418672800064087,
+            3.1502349376678467
+          ]
+        },
+        {
+          "step": 5,
+          "length": 3.706280714571887,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3366616368293762,
+            0.46169835329055786,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3366616368293762,
+            0.46169835329055786,
+            3.201474905014038
+          ]
+        },
+        {
+          "step": 10,
+          "length": 3.448129425865802,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.3341338038444519,
+            0.45928826928138733,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.3341338038444519,
+            0.45928826928138733,
+            3.246595621109009
+          ]
+        },
+        {
+          "step": 15,
+          "length": 3.2884492347985868,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.33168116211891174,
+            0.4570421576499939,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.33168116211891174,
+            0.4570421576499939,
+            3.2835683822631836
+          ]
+        },
+        {
+          "step": 20,
+          "length": 3.1548734203495883,
+          "source_phase": "pre",
+          "gids": [
+            7,
+            6
+          ],
+          "mid_pos": [
+            0.32933151721954346,
+            0.4549955725669861,
+            5.2314877596159445e-18
+          ],
+          "stable": 0,
+          "planar": [
+            0.32933151721954346,
+            0.4549955725669861,
+            3.3100390434265137
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-bunny_lowpoly-warm.mp4",
+      "poster": "assets/images/fixed-pair-bunny_lowpoly-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "f9ccd86a0d187e219a2c6738ec14af7dc1098739472bca7a98d84585b3d4d93e",
+      "sourceAudit": true
+    },
+    {
+      "object": "big_screwer",
+      "query": 20,
+      "condition": "Cold",
+      "candidate": 3,
+      "gids": [
+        4,
+        1
+      ],
+      "start": 10,
+      "end": 20,
+      "initial_length": 2.673485000997667,
+      "final_length": 2.2812103880651646,
+      "length_change": -0.39227461293250254,
+      "snapshot_count": 3,
+      "states": [
+        {
+          "step": 10,
+          "length": 2.673485000997667,
+          "source_phase": "post",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2893713414669037,
+            0.42353734374046326,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2893713414669037,
+            0.42353734374046326,
+            3.622634172439575
+          ]
+        },
+        {
+          "step": 15,
+          "length": 2.412439811836923,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2868630886077881,
+            0.4210512936115265,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2868630886077881,
+            0.4210512936115265,
+            3.671278715133667
+          ]
+        },
+        {
+          "step": 20,
+          "length": 2.2812103880651646,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.2843398451805115,
+            0.41861918568611145,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.2843398451805115,
+            0.41861918568611145,
+            3.7066423892974854
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-big_screwer-cold.mp4",
+      "poster": "assets/images/fixed-pair-big_screwer-cold-poster.jpg",
+      "duration": 10.05,
+      "sha256": "2f8c9264116df52a0f4696cb0f84cd459bdb2733de21e7d757879e669e7a40a8",
+      "sourceAudit": true
+    },
+    {
+      "object": "big_screwer",
+      "query": 20,
+      "condition": "Warm",
+      "candidate": 122,
+      "gids": [
+        4,
+        1
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 2.0903889988624536,
+      "final_length": 1.7490391844500046,
+      "length_change": -0.34134981441244894,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 2.0903889988624536,
+          "source_phase": "provided",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08301157504320145,
+            0.3867660462856293,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08301157504320145,
+            0.3867660462856293,
+            5.494559288024902
+          ]
+        },
+        {
+          "step": 5,
+          "length": 1.98638059955322,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08549000322818756,
+            0.3855409622192383,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08549000322818756,
+            0.3855409622192383,
+            5.546584606170654
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.8701003462346582,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.0873919129371643,
+            0.3833228647708893,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.0873919129371643,
+            0.3833228647708893,
+            5.59736442565918
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.7931244325570863,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08684753626585007,
+            0.38139116764068604,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08684753626585007,
+            0.38139116764068604,
+            5.642218112945557
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.7490391844500046,
+          "source_phase": "pre",
+          "gids": [
+            4,
+            1
+          ],
+          "mid_pos": [
+            0.08476992696523666,
+            0.3820148706436157,
+            0.040462801862655995
+          ],
+          "stable": 6,
+          "planar": [
+            0.08476992696523666,
+            0.3820148706436157,
+            5.67086124420166
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-big_screwer-warm.mp4",
+      "poster": "assets/images/fixed-pair-big_screwer-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "cecf73253398fb39b5aaedcd20be84e5d421ce1d71784a161209d7011366b9be",
+      "sourceAudit": true
+    },
+    {
+      "object": "cracker_box",
+      "query": 453,
+      "condition": "Cold",
+      "candidate": 5,
+      "gids": [
+        0,
+        11
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 2.357378941878535,
+      "final_length": 1.8775620148695917,
+      "length_change": -0.4798169270089432,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 2.357378941878535,
+          "source_phase": "post",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3572070002555847,
+            0.23767855763435364,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3572070002555847,
+            0.23767855763435364,
+            3.52876615524292
+          ]
+        },
+        {
+          "step": 10,
+          "length": 2.125169393275587,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35475048422813416,
+            0.23550045490264893,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35475048422813416,
+            0.23550045490264893,
+            3.482830047607422
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.9770558589619156,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.3524011969566345,
+            0.2333327680826187,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.3524011969566345,
+            0.2333327680826187,
+            3.4586310386657715
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.8775620148695917,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            11
+          ],
+          "mid_pos": [
+            0.35010066628456116,
+            0.23114198446273804,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.35010066628456116,
+            0.23114198446273804,
+            3.4469499588012695
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-cracker_box-cold.mp4",
+      "poster": "assets/images/fixed-pair-cracker_box-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "5bf99d70c3fa00254070f7f629f5eeaf9292a8e3f4fb909f3a495a581c676506",
+      "sourceAudit": true
+    },
+    {
+      "object": "cracker_box",
+      "query": 453,
+      "condition": "Warm",
+      "candidate": 65,
+      "gids": [
+        10,
+        11
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 6.079141068513895,
+      "final_length": 5.132115181029586,
+      "length_change": -0.9470258874843092,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 6.079141068513895,
+          "source_phase": "provided",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.02238577790558338,
+            0.3999311923980713,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.02238577790558338,
+            0.3999311923980713,
+            4.69419527053833
+          ]
+        },
+        {
+          "step": 5,
+          "length": 5.749147831855853,
+          "source_phase": "pre",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.024894878268241882,
+            0.3974316120147705,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.024894878268241882,
+            0.3974316120147705,
+            4.642069339752197
+          ]
+        },
+        {
+          "step": 10,
+          "length": 5.477499566431078,
+          "source_phase": "pre",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.02744903601706028,
+            0.3949347734451294,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.02744903601706028,
+            0.3949347734451294,
+            4.590419769287109
+          ]
+        },
+        {
+          "step": 15,
+          "length": 5.276210159933053,
+          "source_phase": "pre",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.029697071760892868,
+            0.3926367163658142,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.029697071760892868,
+            0.3926367163658142,
+            4.56089448928833
+          ]
+        },
+        {
+          "step": 20,
+          "length": 5.132115181029586,
+          "source_phase": "pre",
+          "gids": [
+            10,
+            11
+          ],
+          "mid_pos": [
+            0.031215112656354904,
+            0.39078086614608765,
+            0.10649900138378143
+          ],
+          "stable": 4,
+          "planar": [
+            0.031215112656354904,
+            0.39078086614608765,
+            4.563370227813721
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-cracker_box-warm.mp4",
+      "poster": "assets/images/fixed-pair-cracker_box-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "9c1b77e00044a7cad95179653c8923cd3d9c23b6a70c7d4bf1287e7faebedd74",
+      "sourceAudit": true
+    },
+    {
+      "object": "pitcher",
+      "query": 555,
+      "condition": "Cold",
+      "candidate": 10,
+      "gids": [
+        15,
+        13
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 2.0226622051044205,
+      "final_length": 1.743109486004132,
+      "length_change": -0.27955271910028845,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 2.0226622051044205,
+          "source_phase": "post",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.02359001338481903,
+            0.3902374804019928,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02359001338481903,
+            0.3902374804019928,
+            3.8890931606292725
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.8749235833329148,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.021111896261572838,
+            0.39270028471946716,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.021111896261572838,
+            0.39270028471946716,
+            3.93619704246521
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.7833659385188978,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.018655959516763687,
+            0.3951108753681183,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.018655959516763687,
+            0.3951108753681183,
+            3.9762346744537354
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.743109486004132,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            13
+          ],
+          "mid_pos": [
+            -0.016283690929412842,
+            0.39747193455696106,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.016283690929412842,
+            0.39747193455696106,
+            3.99932861328125
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-pitcher-cold.mp4",
+      "poster": "assets/images/fixed-pair-pitcher-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "e32fff74281183df4bd264e7424a26a9a6a611deb3eccbf178a67e558f542a8c",
+      "sourceAudit": true
+    },
+    {
+      "object": "pitcher",
+      "query": 555,
+      "condition": "Warm",
+      "candidate": 2,
+      "gids": [
+        6,
+        13
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 2.3457607709325967,
+      "final_length": 1.924053350907966,
+      "length_change": -0.4217074200246307,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 2.3457607709325967,
+          "source_phase": "provided",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.030565649271011353,
+            0.31760263442993164,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.030565649271011353,
+            0.31760263442993164,
+            2.452115058898926
+          ]
+        },
+        {
+          "step": 5,
+          "length": 2.161825979341599,
+          "source_phase": "pre",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.028081662952899933,
+            0.3152405917644501,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.028081662952899933,
+            0.3152405917644501,
+            2.495910167694092
+          ]
+        },
+        {
+          "step": 10,
+          "length": 2.0428079387962574,
+          "source_phase": "pre",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.02564486488699913,
+            0.3132322430610657,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02564486488699913,
+            0.3132322430610657,
+            2.5105643272399902
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.9720220576013787,
+          "source_phase": "pre",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.02322297729551792,
+            0.31143274903297424,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.02322297729551792,
+            0.31143274903297424,
+            2.5017406940460205
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.924053350907966,
+          "source_phase": "pre",
+          "gids": [
+            6,
+            13
+          ],
+          "mid_pos": [
+            -0.020817672833800316,
+            0.3096941113471985,
+            0.07241100072860718
+          ],
+          "stable": 1,
+          "planar": [
+            -0.020817672833800316,
+            0.3096941113471985,
+            2.470242738723755
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-pitcher-warm.mp4",
+      "poster": "assets/images/fixed-pair-pitcher-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "9dbf3f77bc7a0c7ba8ca1894ca86084a98722038bc0b368f994843b54adb243d",
+      "sourceAudit": true
+    },
+    {
+      "object": "chips_can",
+      "query": 138,
+      "condition": "Cold",
+      "candidate": 16,
+      "gids": [
+        1,
+        18
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 2.284306093846981,
+      "final_length": 1.6700802919813558,
+      "length_change": -0.614225801865625,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 2.284306093846981,
+          "source_phase": "post",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.24074774980545044,
+            0.4099903106689453,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.24074774980545044,
+            0.4099903106689453,
+            1.5653982162475586
+          ]
+        },
+        {
+          "step": 10,
+          "length": 2.0552883229230328,
+          "source_phase": "pre",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23834499716758728,
+            0.40786680579185486,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23834499716758728,
+            0.40786680579185486,
+            1.5153117179870605
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.8318959938897634,
+          "source_phase": "pre",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.2370932698249817,
+            0.4086548089981079,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.2370932698249817,
+            0.4086548089981079,
+            1.4980332851409912
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.6700802919813558,
+          "source_phase": "pre",
+          "gids": [
+            1,
+            18
+          ],
+          "mid_pos": [
+            0.23653125762939453,
+            0.4106302559375763,
+            0.21704499423503876
+          ],
+          "stable": 0,
+          "planar": [
+            0.23653125762939453,
+            0.4106302559375763,
+            1.5002962350845337
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-chips_can-cold.mp4",
+      "poster": "assets/images/fixed-pair-chips_can-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "7aebbb2c6c8d7ee39d3caf80d85d610ae0388fe3250288c556ca75cdfad7f45f",
+      "sourceAudit": true
+    },
+    {
+      "object": "chips_can",
+      "query": 138,
+      "condition": "Warm",
+      "candidate": 2,
+      "gids": [
+        0,
+        5
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 4.679976854225056,
+      "final_length": 4.071769183544465,
+      "length_change": -0.6082076706805912,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 4.679976854225056,
+          "source_phase": "provided",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.13343816995620728,
+            0.4488583505153656,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.13343816995620728,
+            0.4488583505153656,
+            3.057769536972046
+          ]
+        },
+        {
+          "step": 5,
+          "length": 4.512097420356876,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.13117700815200806,
+            0.44641488790512085,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.13117700815200806,
+            0.44641488790512085,
+            3.043398380279541
+          ]
+        },
+        {
+          "step": 10,
+          "length": 4.332532930043809,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12891846895217896,
+            0.4439532458782196,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12891846895217896,
+            0.4439532458782196,
+            3.0704212188720703
+          ]
+        },
+        {
+          "step": 15,
+          "length": 4.198909499830907,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12687349319458008,
+            0.44165822863578796,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12687349319458008,
+            0.44165822863578796,
+            3.0930023193359375
+          ]
+        },
+        {
+          "step": 20,
+          "length": 4.071769183544465,
+          "source_phase": "pre",
+          "gids": [
+            0,
+            5
+          ],
+          "mid_pos": [
+            0.12499724328517914,
+            0.4396701753139496,
+            0.030951999127864838
+          ],
+          "stable": 1,
+          "planar": [
+            0.12499724328517914,
+            0.4396701753139496,
+            3.1098759174346924
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-chips_can-warm.mp4",
+      "poster": "assets/images/fixed-pair-chips_can-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "0f51d3cc180d8915397e8ceffdbe20ae0b9ab06e58438a140b719361b1e1cf5e",
+      "sourceAudit": true
+    },
+    {
+      "object": "power_drill",
+      "query": 13,
+      "condition": "Cold",
+      "candidate": 3,
+      "gids": [
+        15,
+        1
+      ],
+      "start": 5,
+      "end": 20,
+      "initial_length": 2.0718965561169553,
+      "final_length": 1.8061795242535141,
+      "length_change": -0.2657170318634412,
+      "snapshot_count": 4,
+      "states": [
+        {
+          "step": 5,
+          "length": 2.0718965561169553,
+          "source_phase": "post",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.0564984567463398,
+            0.24904093146324158,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.0564984567463398,
+            0.24904093146324158,
+            2.952279567718506
+          ]
+        },
+        {
+          "step": 10,
+          "length": 1.9972956672575415,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.0586814284324646,
+            0.2514977753162384,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.0586814284324646,
+            0.2514977753162384,
+            3.003851890563965
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.8947235948674614,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.06073898449540138,
+            0.2537457048892975,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.06073898449540138,
+            0.2537457048892975,
+            3.048276901245117
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.8061795242535141,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            1
+          ],
+          "mid_pos": [
+            0.061422619968652725,
+            0.2558158338069916,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.061422619968652725,
+            0.2558158338069916,
+            3.077364444732666
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-power_drill-cold.mp4",
+      "poster": "assets/images/fixed-pair-power_drill-cold-poster.jpg",
+      "duration": 10.0,
+      "sha256": "34f43cf0e8f5fe6f5dfd1ed04085eae9d0c9387c5a9bdfe6d79eccb78f758fd2",
+      "sourceAudit": true
+    },
+    {
+      "object": "power_drill",
+      "query": 13,
+      "condition": "Warm",
+      "candidate": 2,
+      "gids": [
+        15,
+        12
+      ],
+      "start": 0,
+      "end": 20,
+      "initial_length": 2.223684812612722,
+      "final_length": 1.9007476633064933,
+      "length_change": -0.32293714930622874,
+      "snapshot_count": 5,
+      "states": [
+        {
+          "step": 0,
+          "length": 2.223684812612722,
+          "source_phase": "provided",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23351311683654785,
+            0.3452102839946747,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23351311683654785,
+            0.3452102839946747,
+            4.706021308898926
+          ]
+        },
+        {
+          "step": 5,
+          "length": 2.2040394316825207,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23329909145832062,
+            0.3477022349834442,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23329909145832062,
+            0.3477022349834442,
+            4.660404682159424
+          ]
+        },
+        {
+          "step": 10,
+          "length": 2.0579112375641095,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23511478304862976,
+            0.35007229447364807,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23511478304862976,
+            0.35007229447364807,
+            4.63250207901001
+          ]
+        },
+        {
+          "step": 15,
+          "length": 1.9706509056128705,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23719264566898346,
+            0.35240569710731506,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23719264566898346,
+            0.35240569710731506,
+            4.613283634185791
+          ]
+        },
+        {
+          "step": 20,
+          "length": 1.9007476633064933,
+          "source_phase": "pre",
+          "gids": [
+            15,
+            12
+          ],
+          "mid_pos": [
+            0.23912547528743744,
+            0.35476747155189514,
+            0.12279900163412094
+          ],
+          "stable": 2,
+          "planar": [
+            0.23912547528743744,
+            0.35476747155189514,
+            4.58964729309082
+          ]
+        }
+      ],
+      "candidate_switches": 0,
+      "grasp_switches": 0,
+      "accepted_replans_inside_interval": 0,
+      "video": "assets/videos/fixed-pair-power_drill-warm.mp4",
+      "poster": "assets/images/fixed-pair-power_drill-warm-poster.jpg",
+      "duration": 10.0,
+      "sha256": "75f65407c74aabe435a510b417514b38f66143bbf1a4033e371de2fdc1775d4e",
+      "sourceAudit": true
+    }
+  ]
 }

@@ -9,9 +9,10 @@ A buildless GitHub Pages site for the regrasp-planning paper. Open `index.html` 
 - Sixteen trajectory videos, with Cold and Warm starts for each object.
 - Analytical-reference and final-distribution plots for ordinary, truncated and balanced generating objectives.
 - All eight one-step and sixteen trajectory videos directly visible in responsive two-row, four-column grids on wide desktop screens, with no object or objective tabs.
-- All 25 videos initialize with muted autoplay and looping, retaining native playback controls. Starting another video or scrolling does not pause them.
+- Sixteen additional fixed-grasp/candidate optimization videos in a two-row by eight-object gallery, Cold above Warm. Each clip shows archived synchronized mid-pose/robot-path states and stops before a replan.
+- All 41 videos initialize with muted autoplay and looping, retaining native playback controls. Starting another video or scrolling does not pause them.
 - Independent linked Cold/Warm playback, verified TCP-length traces and full-size result figures for every object.
-- Native MathML equations for actual shared grasps, finite-pool mean-normalized pair scores, stable-mode pose parameters, ordinary/balanced/truncated objectives and trajectory optimization.
+- Thirteen original equation captures cropped directly from the clean manuscript PDF, preserving its typesetting and equation numbers. Each capture opens at full resolution.
 
 The page uses a wider content region (up to 1840px). Method illustrations in `assets/images/paper/` are byte-identical copies of the current manuscript overview, shared-grasp, energy-composition and stable-placement figures, with click-to-enlarge views.
 
@@ -27,10 +28,12 @@ The examples are separate from query-level benchmark statistics. The manuscript'
 
 Copy `index.html`, `styles.css`, `app.js`, `assets/` and `.nojekyll` to the root of `UccI22911/UccI22911.github.io`. Keep `video_1.mp4` in place. The provided ready-to-upload ZIP contains the full static site, including the unchanged original recording.
 
-GitHub Pages should serve the root of the repository's `main` branch. No Node packages, external fonts, analytics, accounts or third-party runtime scripts are required. Formulas render with native browser MathML.
+GitHub Pages should serve the root of the repository's `main` branch. No Node packages, external fonts, analytics, accounts or third-party runtime scripts are required. Displayed formulas are original PDF equation captures, with descriptive alt text.
 
 ## Local build records
 
 Local-only rendering scripts are in `tools/`, with source hashes, replay audits and validation reports in `.build/`. These directories are excluded from publication. The tiled-page builder is `tools/build_tiled_page.py`. The public `assets/data/examples.json` contains the displayed example metadata without private filesystem paths.
 
-Validation includes all 25 MP4 decodes, H.264/yuv420p encoding, fast-start MP4s, caption tracks, local links, unchanged original video hash, archived trajectory anchors/lengths, and browser checks for the fully expanded grids, formula rendering, figure zoom, independent synchronized pairs and responsive widths.
+Validation includes all published MP4 decodes, H.264/yuv420p encoding, fast-start MP4s, caption tracks, local links, unchanged original video hash, archived trajectory anchors/lengths, and browser checks for the fully expanded grids, PDF equation capture rendering, figure zoom, independent synchronized pairs and responsive widths.
+
+Fixed-pair example selection, source hashes, anchor/length/topology checks, checkpoint decision audits and rendering records are under `.build/fixed-pair/`. These videos use real saved checkpoints, including a shorter Mug Warm interval. They add no new optimization, planning or scientific results.
