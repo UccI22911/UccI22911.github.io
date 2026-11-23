@@ -16,7 +16,7 @@ The page uses a wider content region (up to 1840px). Method illustrations in `as
 
 ## Scientific scope
 
-The one-step illustrations use the 10k-pose/FPS20 models, 200 candidates and 20 native pose updates. Each object uses its first registered one-step query. The videos track the same twenty candidate identities selected by final ordinary cost. Colors in each final-objective row use that objective's own scale.
+The one-step illustrations use the 10k-pose/FPS20 models, 200 candidates and 20 native pose updates. Objects use their first registered one-step query, with one geometry-qualified replacement for Mug. The Mug example uses mug_q0015, the first subsequent registered query with collision-free object/environment endpoints, nonempty feasible endpoint grasp sets and no direct shared grasp. Selection precedes optimization. The videos track the same twenty candidate identities selected by final ordinary cost. Colors in each final-objective row use that objective's own scale.
 
 Trajectory clips replay saved Jseq paths from the completed 20-grasp study. They include real pose updates, verified checkpoints and final joint-path playback. Cold has no supplied path. Warm uses the saved common executable initialization. Illustrative paired queries are the first in numerical order with an available Warm initialization and final executable Jseq paths under both starts. Displayed TCP lengths are taken from audited results. Animation time is adjusted for viewing.
 

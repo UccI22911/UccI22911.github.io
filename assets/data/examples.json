@@ -23,19 +23,25 @@
       "id": "mug",
       "label": "Mug",
       "oneStep": {
-        "queryId": "mug_q0000",
+        "queryId": "mug_q0015",
         "grasps": 20,
         "candidates": 200,
         "updates": 20,
         "modes": 2,
-        "video": "assets/videos/one-step-mug.mp4",
-        "poster": "assets/images/one-step-mug-poster.jpg",
+        "video": "assets/videos/one-step-mug-q0015-v2.mp4",
+        "poster": "assets/images/one-step-mug-q0015-v2-poster.jpg",
         "images": {
-          "sum": "assets/images/one-step-mug-sum.png",
-          "jh": "assets/images/one-step-mug-jh.png",
-          "reg": "assets/images/one-step-mug-reg.png",
-          "comparison": "assets/images/one-step-mug-comparison.png"
-        }
+          "sum": "assets/images/one-step-mug-q0015-v2-sum.png",
+          "jh": "assets/images/one-step-mug-q0015-v2-jh.png",
+          "reg": "assets/images/one-step-mug-q0015-v2-reg.png",
+          "comparison": "assets/images/one-step-mug-q0015-v2-comparison.png"
+        },
+        "endpointEnvironmentValid": true,
+        "endpointFeasibleGraspCounts": [
+          1,
+          1
+        ],
+        "directSharedGrasps": 0
       }
     },
     {
@@ -1130,7 +1136,7 @@
     "sha256": "9688fef59252c0873e4e295f1d331634fe87a7de2c223873990b639b1da43224"
   },
   "notes": {
-    "oneStep": "Independent illustrative B200/K20 runs using the frozen 20-grasp models and objectives. First registered one-step query per object, no selection by result. Manuscript Fig. 7 uses B200/K10, and the quantitative benchmark uses B1000/K10.",
+    "oneStep": "Independent illustrative B200/K20 runs using the frozen 20-grasp models and objectives. First registered one-step query per object, except Mug: first subsequent query passing endpoint environment and grasp checks with no direct shared grasp, selected before optimization. Manuscript Fig. 7 uses B200/K10, and the quantitative benchmark uses B1000/K10.",
     "trajectory": "Read-only replay of audited formal Jseq paths. First numerically ordered query with a supplied Warm path and final executable paths under both starts. Examples illustrate behavior, not aggregate benchmark performance.",
     "timing": "Playback speeds are adjusted for viewing and are not measured planning or execution latency."
   }
